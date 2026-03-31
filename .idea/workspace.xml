@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29abc3bf-a751-48aa-afb4-34107da14334" name="Changes" comment="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="atakan bircan &lt;furkanatakanbircan@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="expert" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "atakanbircan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/atakanbircan/earthquake-spatial-analysis",
+    "accountId": "54967245-80c8-4306-beaf-bd0a05957bca"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/.gitignore" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3BgDVDTowdgkgjWekZ49gRZGESt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29abc3bf-a751-48aa-afb4-34107da14334" name="Changes" comment="" />
+      <created>1774901840135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774901840135</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774911204366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774911204366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774912402704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774912402704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774912887450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774912887450</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774913484519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774913484519</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774913954335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774913954335</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774913978084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774913978084</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774914050677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774914050677</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774914071929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774914071929</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774914395427</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774914395427</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774914721640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774914721640</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization">
+      <option name="closed" value="true" />
+      <created>1774914913305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774914913305</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Spatial earthquake analysis ETL pipeline and QGIS visualization" />
+  </component>
+</project>
