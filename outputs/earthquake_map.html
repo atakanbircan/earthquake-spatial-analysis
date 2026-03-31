@@ -1,0 +1,3666 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_21027633dd75f4b71e7cbc4f7f1174e1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_21027633dd75f4b71e7cbc4f7f1174e1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_21027633dd75f4b71e7cbc4f7f1174e1 = L.map(
+                "map_21027633dd75f4b71e7cbc4f7f1174e1",
+                {
+                    center: [2.4375890322580633, 23.78696193548387],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef537918a97da0b55e267160742c2672 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ef537918a97da0b55e267160742c2672.addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+            var circle_marker_6df50f708cee7eb90bdd37f0be73f9d0 = L.circleMarker(
+                [-18.6678, -175.5601],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.25, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ff10c04c0a2c0528957d355416fb31be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a51c12ec59c603676570658c80881082 = $(`<div id="html_a51c12ec59c603676570658c80881082" style="width: 100.0%; height: 100.0%;">Magnitude: 7.5 | Location: 166 km W of Neiafu, Tonga</div>`)[0];
+                popup_ff10c04c0a2c0528957d355416fb31be.setContent(html_a51c12ec59c603676570658c80881082);
+            
+        
+
+        circle_marker_6df50f708cee7eb90bdd37f0be73f9d0.bindPopup(popup_ff10c04c0a2c0528957d355416fb31be)
+        ;
+
+        
+    
+    
+            var circle_marker_b2c81c7a3eed719abfcd9ff6bd63c076 = L.circleMarker(
+                [-15.3139, 167.5616],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.95, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_20d3e5f6fdde15159625a38c7154b764 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3ec9fc9020b4244fdfa3c6f5f52071b = $(`<div id="html_f3ec9fc9020b4244fdfa3c6f5f52071b" style="width: 100.0%; height: 100.0%;">Magnitude: 7.3 | Location: 48 km ENE of Luganville, Vanuatu</div>`)[0];
+                popup_20d3e5f6fdde15159625a38c7154b764.setContent(html_f3ec9fc9020b4244fdfa3c6f5f52071b);
+            
+        
+
+        circle_marker_b2c81c7a3eed719abfcd9ff6bd63c076.bindPopup(popup_20d3e5f6fdde15159625a38c7154b764)
+        ;
+
+        
+    
+    
+            var circle_marker_998816459c50b474875269d001e8e4d0 = L.circleMarker(
+                [23.8496, -45.8331],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.899999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_171c8ec2a8992e6f8cf86947d70bbef3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e383085c76043dcde7d064bdc65077af = $(`<div id="html_e383085c76043dcde7d064bdc65077af" style="width: 100.0%; height: 100.0%;">Magnitude: 6.6 | Location: northern Mid-Atlantic Ridge</div>`)[0];
+                popup_171c8ec2a8992e6f8cf86947d70bbef3.setContent(html_e383085c76043dcde7d064bdc65077af);
+            
+        
+
+        circle_marker_998816459c50b474875269d001e8e4d0.bindPopup(popup_171c8ec2a8992e6f8cf86947d70bbef3)
+        ;
+
+        
+    
+    
+            var circle_marker_52547e7da83b8961db6002a61edf4ddb = L.circleMarker(
+                [-61.1525, -56.2683],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.899999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_32dbc9810ccf6f0a60c7b52f461c23cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_242683948cdd41375a571b12d7c18da6 = $(`<div id="html_242683948cdd41375a571b12d7c18da6" style="width: 100.0%; height: 100.0%;">Magnitude: 6.6 | Location: South Shetland Islands</div>`)[0];
+                popup_32dbc9810ccf6f0a60c7b52f461c23cc.setContent(html_242683948cdd41375a571b12d7c18da6);
+            
+        
+
+        circle_marker_52547e7da83b8961db6002a61edf4ddb.bindPopup(popup_32dbc9810ccf6f0a60c7b52f461c23cc)
+        ;
+
+        
+    
+    
+            var circle_marker_baccd0970c599ec62d81e0168d285d51 = L.circleMarker(
+                [39.4462, 143.3717],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.75, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b499e4f5b9607291df4f688e8c3c571f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfd0f7b6ff9cafaeb6149648c50cefce = $(`<div id="html_bfd0f7b6ff9cafaeb6149648c50cefce" style="width: 100.0%; height: 100.0%;">Magnitude: 6.5 | Location: 122 km E of Yamada, Japan</div>`)[0];
+                popup_b499e4f5b9607291df4f688e8c3c571f.setContent(html_bfd0f7b6ff9cafaeb6149648c50cefce);
+            
+        
+
+        circle_marker_baccd0970c599ec62d81e0168d285d51.bindPopup(popup_b499e4f5b9607291df4f688e8c3c571f)
+        ;
+
+        
+    
+    
+            var circle_marker_6a34b983eb2a6ec10531d2950bd0b2ae = L.circleMarker(
+                [52.3107, 176.3577],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.600000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_5e79b9799e2f02a5280a94921d4109a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15c4be9217db5d138ccd965c4e1f0f46 = $(`<div id="html_15c4be9217db5d138ccd965c4e1f0f46" style="width: 100.0%; height: 100.0%;">Magnitude: 6.4 | Location: 223 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_5e79b9799e2f02a5280a94921d4109a0.setContent(html_15c4be9217db5d138ccd965c4e1f0f46);
+            
+        
+
+        circle_marker_6a34b983eb2a6ec10531d2950bd0b2ae.bindPopup(popup_5e79b9799e2f02a5280a94921d4109a0)
+        ;
+
+        
+    
+    
+            var circle_marker_88ddf0df3e5fe45abed621d41aef3eb3 = L.circleMarker(
+                [-28.684, -71.6269],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.45, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_71ba4398f94c33f7da8ddedc507d884e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02b1668665d5eadc77b0efec4afcc09b = $(`<div id="html_02b1668665d5eadc77b0efec4afcc09b" style="width: 100.0%; height: 100.0%;">Magnitude: 6.3 | Location: 85 km W of Vallenar, Chile</div>`)[0];
+                popup_71ba4398f94c33f7da8ddedc507d884e.setContent(html_02b1668665d5eadc77b0efec4afcc09b);
+            
+        
+
+        circle_marker_88ddf0df3e5fe45abed621d41aef3eb3.bindPopup(popup_71ba4398f94c33f7da8ddedc507d884e)
+        ;
+
+        
+    
+    
+            var circle_marker_f0605d0d26fbce3c99729ab1d94c484e = L.circleMarker(
+                [-15.2263, -172.6832],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.45, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_aab4e236fb886c1399e4dc4e61a1b628 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd3cbec48408cc32e1ddf7cdbe1f2e78 = $(`<div id="html_dd3cbec48408cc32e1ddf7cdbe1f2e78" style="width: 100.0%; height: 100.0%;">Magnitude: 6.3 | Location: 144 km NE of Hihifo, Tonga</div>`)[0];
+                popup_aab4e236fb886c1399e4dc4e61a1b628.setContent(html_dd3cbec48408cc32e1ddf7cdbe1f2e78);
+            
+        
+
+        circle_marker_f0605d0d26fbce3c99729ab1d94c484e.bindPopup(popup_aab4e236fb886c1399e4dc4e61a1b628)
+        ;
+
+        
+    
+    
+            var circle_marker_0a4e0fe20d9b239276fd0f7f037ef039 = L.circleMarker(
+                [-15.3824, -173.0468],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.3, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_1cf54e153b03775130afb47a2b227c66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb987cfbfe5c67b5a96a1aca52a7c5c = $(`<div id="html_8bb987cfbfe5c67b5a96a1aca52a7c5c" style="width: 100.0%; height: 100.0%;">Magnitude: 6.2 | Location: 102 km NE of Hihifo, Tonga</div>`)[0];
+                popup_1cf54e153b03775130afb47a2b227c66.setContent(html_8bb987cfbfe5c67b5a96a1aca52a7c5c);
+            
+        
+
+        circle_marker_0a4e0fe20d9b239276fd0f7f037ef039.bindPopup(popup_1cf54e153b03775130afb47a2b227c66)
+        ;
+
+        
+    
+    
+            var circle_marker_4ec04138661dfbdd23f83c5e154fc479 = L.circleMarker(
+                [-15.1719, -172.5084],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.3, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_69eca3cfa9bfc4dc75561be8c2ff1580 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1d7849c4ca4e6ee647d3de1f85f44dd = $(`<div id="html_e1d7849c4ca4e6ee647d3de1f85f44dd" style="width: 100.0%; height: 100.0%;">Magnitude: 6.2 | Location: 149 km SSW of Lotofagā, Samoa</div>`)[0];
+                popup_69eca3cfa9bfc4dc75561be8c2ff1580.setContent(html_e1d7849c4ca4e6ee647d3de1f85f44dd);
+            
+        
+
+        circle_marker_4ec04138661dfbdd23f83c5e154fc479.bindPopup(popup_69eca3cfa9bfc4dc75561be8c2ff1580)
+        ;
+
+        
+    
+    
+            var circle_marker_55813036cb55d83a446ae34168d00b82 = L.circleMarker(
+                [-11.47, 163.0974],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.3, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_69afec0cd1cfa3f84f88a8589df3a97f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bcbf9693d6ffa3f7c317650c009ef58 = $(`<div id="html_0bcbf9693d6ffa3f7c317650c009ef58" style="width: 100.0%; height: 100.0%;">Magnitude: 6.2 | Location: 170 km SE of Kirakira, Solomon Islands</div>`)[0];
+                popup_69afec0cd1cfa3f84f88a8589df3a97f.setContent(html_0bcbf9693d6ffa3f7c317650c009ef58);
+            
+        
+
+        circle_marker_55813036cb55d83a446ae34168d00b82.bindPopup(popup_69afec0cd1cfa3f84f88a8589df3a97f)
+        ;
+
+        
+    
+    
+            var circle_marker_399471896a83a5b8425001896fa5e395 = L.circleMarker(
+                [2.0076, 96.695],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.3, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_4f959cbb86114a605f4a2f1b771f789c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_380f43942113e136377ca98c0ee68bbe = $(`<div id="html_380f43942113e136377ca98c0ee68bbe" style="width: 100.0%; height: 100.0%;">Magnitude: 6.2 | Location: 62 km SE of Sinabang, Indonesia</div>`)[0];
+                popup_4f959cbb86114a605f4a2f1b771f789c.setContent(html_380f43942113e136377ca98c0ee68bbe);
+            
+        
+
+        circle_marker_399471896a83a5b8425001896fa5e395.bindPopup(popup_4f959cbb86114a605f4a2f1b771f789c)
+        ;
+
+        
+    
+    
+            var circle_marker_1d5d58a8a8973c2b235978a01aa21eb9 = L.circleMarker(
+                [-19.2783, 168.3207],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.149999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_bf5f85b9ae85223eb5110e7deb15a35e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92c1fc409dadff5873d5f2b861aca7df = $(`<div id="html_92c1fc409dadff5873d5f2b861aca7df" style="width: 100.0%; height: 100.0%;">Magnitude: 6.1 | Location: 105 km WNW of Isangel, Vanuatu</div>`)[0];
+                popup_bf5f85b9ae85223eb5110e7deb15a35e.setContent(html_92c1fc409dadff5873d5f2b861aca7df);
+            
+        
+
+        circle_marker_1d5d58a8a8973c2b235978a01aa21eb9.bindPopup(popup_bf5f85b9ae85223eb5110e7deb15a35e)
+        ;
+
+        
+    
+    
+            var circle_marker_6b376c668eec264940452127e151a153 = L.circleMarker(
+                [40.5769, 13.9885],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b45a167ad1fd69cceece2881d2ab8eee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79600308c6e0f95882f374e532463fd9 = $(`<div id="html_79600308c6e0f95882f374e532463fd9" style="width: 100.0%; height: 100.0%;">Magnitude: 6.0 | Location: 15 km SSE of Sant'Angelo, Italy</div>`)[0];
+                popup_b45a167ad1fd69cceece2881d2ab8eee.setContent(html_79600308c6e0f95882f374e532463fd9);
+            
+        
+
+        circle_marker_6b376c668eec264940452127e151a153.bindPopup(popup_b45a167ad1fd69cceece2881d2ab8eee)
+        ;
+
+        
+    
+    
+            var circle_marker_4b6a6215223a6cf014349b60298b4731 = L.circleMarker(
+                [22.9731, 144.2098],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.0, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_0f011485d8dd0bab821f9b5a2db3345e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34987c722aa3f80a30c531ec3b48333a = $(`<div id="html_34987c722aa3f80a30c531ec3b48333a" style="width: 100.0%; height: 100.0%;">Magnitude: 6.0 | Location: Volcano Islands, Japan region</div>`)[0];
+                popup_0f011485d8dd0bab821f9b5a2db3345e.setContent(html_34987c722aa3f80a30c531ec3b48333a);
+            
+        
+
+        circle_marker_4b6a6215223a6cf014349b60298b4731.bindPopup(popup_0f011485d8dd0bab821f9b5a2db3345e)
+        ;
+
+        
+    
+    
+            var circle_marker_b5ddf73024eef23a0dcc8adba110d462 = L.circleMarker(
+                [-16.0113, -173.9045],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.850000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_12800b2e336c33e3518e06276d68791f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a942bdeeced322d70721c8b07974f45 = $(`<div id="html_3a942bdeeced322d70721c8b07974f45" style="width: 100.0%; height: 100.0%;">Magnitude: 5.9 | Location: 13 km WSW of Hihifo, Tonga</div>`)[0];
+                popup_12800b2e336c33e3518e06276d68791f.setContent(html_3a942bdeeced322d70721c8b07974f45);
+            
+        
+
+        circle_marker_b5ddf73024eef23a0dcc8adba110d462.bindPopup(popup_12800b2e336c33e3518e06276d68791f)
+        ;
+
+        
+    
+    
+            var circle_marker_a0ca4088bdb40ba17ddf336404041a7c = L.circleMarker(
+                [42.0868, 140.3092],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.850000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_0c48384745f4e5211c8b06180f04e01a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_878f46be444dcf202980a2e04c8aac04 = $(`<div id="html_878f46be444dcf202980a2e04c8aac04" style="width: 100.0%; height: 100.0%;">Magnitude: 5.9 | Location: 19 km NE of Otobe, Japan</div>`)[0];
+                popup_0c48384745f4e5211c8b06180f04e01a.setContent(html_878f46be444dcf202980a2e04c8aac04);
+            
+        
+
+        circle_marker_a0ca4088bdb40ba17ddf336404041a7c.bindPopup(popup_0c48384745f4e5211c8b06180f04e01a)
+        ;
+
+        
+    
+    
+            var circle_marker_002a90fa9810987163897627040d3ac1 = L.circleMarker(
+                [-15.5887, -172.8436],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.850000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f3bf9278353ba689189609058efb5c62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbaf1014622b318faa06a77bb3ac6eb1 = $(`<div id="html_bbaf1014622b318faa06a77bb3ac6eb1" style="width: 100.0%; height: 100.0%;">Magnitude: 5.9 | Location: 109 km ENE of Hihifo, Tonga</div>`)[0];
+                popup_f3bf9278353ba689189609058efb5c62.setContent(html_bbaf1014622b318faa06a77bb3ac6eb1);
+            
+        
+
+        circle_marker_002a90fa9810987163897627040d3ac1.bindPopup(popup_f3bf9278353ba689189609058efb5c62)
+        ;
+
+        
+    
+    
+            var circle_marker_de324a08958797252d26a790a6ebf4f7 = L.circleMarker(
+                [-7.4878, 127.7555],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.850000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_96470e960067f1d5f8765ab488d9de3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7881b67f9645edbd789b85519debea10 = $(`<div id="html_7881b67f9645edbd789b85519debea10" style="width: 100.0%; height: 100.0%;">Magnitude: 5.9 | Location: 141 km NE of Lospalos, Timor Leste</div>`)[0];
+                popup_96470e960067f1d5f8765ab488d9de3b.setContent(html_7881b67f9645edbd789b85519debea10);
+            
+        
+
+        circle_marker_de324a08958797252d26a790a6ebf4f7.bindPopup(popup_96470e960067f1d5f8765ab488d9de3b)
+        ;
+
+        
+    
+    
+            var circle_marker_33000c207eafc09d0b150fa18671e054 = L.circleMarker(
+                [51.6519, 159.3937],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.850000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_1a01da7a8bbac3a23e7467e34c89e397 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57504e2f2b6b06e9002c7b748a4bff04 = $(`<div id="html_57504e2f2b6b06e9002c7b748a4bff04" style="width: 100.0%; height: 100.0%;">Magnitude: 5.9 | Location: 157 km SSE of Vilyuchinsk, Russia</div>`)[0];
+                popup_1a01da7a8bbac3a23e7467e34c89e397.setContent(html_57504e2f2b6b06e9002c7b748a4bff04);
+            
+        
+
+        circle_marker_33000c207eafc09d0b150fa18671e054.bindPopup(popup_1a01da7a8bbac3a23e7467e34c89e397)
+        ;
+
+        
+    
+    
+            var circle_marker_245b5d5092d07a9a4812c234c6861617 = L.circleMarker(
+                [-15.3637, -172.9452],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.7, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_04aaacb5d2b957563799871088e1fd18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3bac605a85df376d417ff264c247a8b = $(`<div id="html_e3bac605a85df376d417ff264c247a8b" style="width: 100.0%; height: 100.0%;">Magnitude: 5.8 | Location: 112 km NE of Hihifo, Tonga</div>`)[0];
+                popup_04aaacb5d2b957563799871088e1fd18.setContent(html_e3bac605a85df376d417ff264c247a8b);
+            
+        
+
+        circle_marker_245b5d5092d07a9a4812c234c6861617.bindPopup(popup_04aaacb5d2b957563799871088e1fd18)
+        ;
+
+        
+    
+    
+            var circle_marker_156b13fbedb528c9b6d14cb6a6aab795 = L.circleMarker(
+                [19.8399, -74.3586],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.7, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d022e11538ade161c175ecf24d99f9d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_defefd2d0cb04d476cb40a0491cd75e6 = $(`<div id="html_defefd2d0cb04d476cb40a0491cd75e6" style="width: 100.0%; height: 100.0%;">Magnitude: 5.8 | Location: 49 km SSW of Maisí, Cuba</div>`)[0];
+                popup_d022e11538ade161c175ecf24d99f9d3.setContent(html_defefd2d0cb04d476cb40a0491cd75e6);
+            
+        
+
+        circle_marker_156b13fbedb528c9b6d14cb6a6aab795.bindPopup(popup_d022e11538ade161c175ecf24d99f9d3)
+        ;
+
+        
+    
+    
+            var circle_marker_4d0ec5c09eab688177e7fe2d7d554a21 = L.circleMarker(
+                [-3.1837, 139.3807],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.55, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_5bbbaae58056f7237afc73bb1cea981c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ab630ce7928fc43d1e7aa35acb1cea7 = $(`<div id="html_6ab630ce7928fc43d1e7aa35acb1cea7" style="width: 100.0%; height: 100.0%;">Magnitude: 5.7 | Location: 153 km WSW of Abepura, Indonesia</div>`)[0];
+                popup_5bbbaae58056f7237afc73bb1cea981c.setContent(html_6ab630ce7928fc43d1e7aa35acb1cea7);
+            
+        
+
+        circle_marker_4d0ec5c09eab688177e7fe2d7d554a21.bindPopup(popup_5bbbaae58056f7237afc73bb1cea981c)
+        ;
+
+        
+    
+    
+            var circle_marker_1cd1850dceb6dd1d560ee4fab2cfe766 = L.circleMarker(
+                [-8.9223, -108.3926],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.55, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ac92557af637bcd2fafc56ed9ff7ddc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45149d8067fcd51374acef6c78c61ebb = $(`<div id="html_45149d8067fcd51374acef6c78c61ebb" style="width: 100.0%; height: 100.0%;">Magnitude: 5.7 | Location: central East Pacific Rise</div>`)[0];
+                popup_ac92557af637bcd2fafc56ed9ff7ddc1.setContent(html_45149d8067fcd51374acef6c78c61ebb);
+            
+        
+
+        circle_marker_1cd1850dceb6dd1d560ee4fab2cfe766.bindPopup(popup_ac92557af637bcd2fafc56ed9ff7ddc1)
+        ;
+
+        
+    
+    
+            var circle_marker_9437dff7d3db51b6e1a5b47ee67f7b4d = L.circleMarker(
+                [52.2174, 176.4498],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.55, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_020ae1168c228319b7dbcd9a6138a622 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7aa82e8e18ef110fc4f376e6d780a782 = $(`<div id="html_7aa82e8e18ef110fc4f376e6d780a782" style="width: 100.0%; height: 100.0%;">Magnitude: 5.7 | Location: 232 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_020ae1168c228319b7dbcd9a6138a622.setContent(html_7aa82e8e18ef110fc4f376e6d780a782);
+            
+        
+
+        circle_marker_9437dff7d3db51b6e1a5b47ee67f7b4d.bindPopup(popup_020ae1168c228319b7dbcd9a6138a622)
+        ;
+
+        
+    
+    
+            var circle_marker_6fd57718c729964d32e7bcbac4f86487 = L.circleMarker(
+                [39.4355, 143.1655],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.55, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_013eed1ba81582c14b4772d7d170705f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12cdad2e368571285972378c231390c3 = $(`<div id="html_12cdad2e368571285972378c231390c3" style="width: 100.0%; height: 100.0%;">Magnitude: 5.7 | Location: 104 km E of Yamada, Japan</div>`)[0];
+                popup_013eed1ba81582c14b4772d7d170705f.setContent(html_12cdad2e368571285972378c231390c3);
+            
+        
+
+        circle_marker_6fd57718c729964d32e7bcbac4f86487.bindPopup(popup_013eed1ba81582c14b4772d7d170705f)
+        ;
+
+        
+    
+    
+            var circle_marker_2ead4191761b498ca34daa9728b9acf2 = L.circleMarker(
+                [-16.0064, 166.9182],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.55, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_267ebcd911adff5e0b30083b8becfbbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd6e73c91848f299b3d8c475a26b5f87 = $(`<div id="html_fd6e73c91848f299b3d8c475a26b5f87" style="width: 100.0%; height: 100.0%;">Magnitude: 5.7 | Location: 51 km W of Norsup, Vanuatu</div>`)[0];
+                popup_267ebcd911adff5e0b30083b8becfbbc.setContent(html_fd6e73c91848f299b3d8c475a26b5f87);
+            
+        
+
+        circle_marker_2ead4191761b498ca34daa9728b9acf2.bindPopup(popup_267ebcd911adff5e0b30083b8becfbbc)
+        ;
+
+        
+    
+    
+            var circle_marker_d59e15a552102d8cfc20860b1521a9c0 = L.circleMarker(
+                [49.1691, 156.0797],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.399999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_8ad6e3cfe7af1269473d46935b6d70f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ed703d577e44619cf56acc96a2a7732 = $(`<div id="html_8ed703d577e44619cf56acc96a2a7732" style="width: 100.0%; height: 100.0%;">Magnitude: 5.6 | Location: 167 km S of Severo-Kuril’sk, Russia</div>`)[0];
+                popup_8ad6e3cfe7af1269473d46935b6d70f0.setContent(html_8ed703d577e44619cf56acc96a2a7732);
+            
+        
+
+        circle_marker_d59e15a552102d8cfc20860b1521a9c0.bindPopup(popup_8ad6e3cfe7af1269473d46935b6d70f0)
+        ;
+
+        
+    
+    
+            var circle_marker_026dc70df239a61c91ef688c39a2d826 = L.circleMarker(
+                [-14.9649, -173.0424],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.399999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_7eb773e55f1cd2747581cfa4a5eeef96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_920eb390ff7a279b8319806b0cdfd28d = $(`<div id="html_920eb390ff7a279b8319806b0cdfd28d" style="width: 100.0%; height: 100.0%;">Magnitude: 5.6 | Location: 136 km NE of Hihifo, Tonga</div>`)[0];
+                popup_7eb773e55f1cd2747581cfa4a5eeef96.setContent(html_920eb390ff7a279b8319806b0cdfd28d);
+            
+        
+
+        circle_marker_026dc70df239a61c91ef688c39a2d826.bindPopup(popup_7eb773e55f1cd2747581cfa4a5eeef96)
+        ;
+
+        
+    
+    
+            var circle_marker_a991898f2015b8eab7999ccb4655530c = L.circleMarker(
+                [-15.5143, -174.3933],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.399999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_adc075d1710aab8c06cec3b338f586da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8800b14a1e959f41ab64cef860acfe89 = $(`<div id="html_8800b14a1e959f41ab64cef860acfe89" style="width: 100.0%; height: 100.0%;">Magnitude: 5.6 | Location: 80 km NW of Hihifo, Tonga</div>`)[0];
+                popup_adc075d1710aab8c06cec3b338f586da.setContent(html_8800b14a1e959f41ab64cef860acfe89);
+            
+        
+
+        circle_marker_a991898f2015b8eab7999ccb4655530c.bindPopup(popup_adc075d1710aab8c06cec3b338f586da)
+        ;
+
+        
+    
+    
+            var circle_marker_10de69baf213e216754d1b3a1bc5c942 = L.circleMarker(
+                [-24.0759, -66.977],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.399999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_fa265ce9a2e6181ef5bfebe4cde1654a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd866d123af7fca902f723c01db24996 = $(`<div id="html_dd866d123af7fca902f723c01db24996" style="width: 100.0%; height: 100.0%;">Magnitude: 5.6 | Location: 68 km WNW of San Antonio de los Cobres, Argentina</div>`)[0];
+                popup_fa265ce9a2e6181ef5bfebe4cde1654a.setContent(html_dd866d123af7fca902f723c01db24996);
+            
+        
+
+        circle_marker_10de69baf213e216754d1b3a1bc5c942.bindPopup(popup_fa265ce9a2e6181ef5bfebe4cde1654a)
+        ;
+
+        
+    
+    
+            var circle_marker_f0a72c397660e07511e2fda9e538f925 = L.circleMarker(
+                [25.2088, 124.9773],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.399999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ad5655258079a56339a6e8be33fea5d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30c1ff7959ee6df09837db1c98324236 = $(`<div id="html_30c1ff7959ee6df09837db1c98324236" style="width: 100.0%; height: 100.0%;">Magnitude: 5.6 | Location: 55 km NW of Hirara, Japan</div>`)[0];
+                popup_ad5655258079a56339a6e8be33fea5d7.setContent(html_30c1ff7959ee6df09837db1c98324236);
+            
+        
+
+        circle_marker_f0a72c397660e07511e2fda9e538f925.bindPopup(popup_ad5655258079a56339a6e8be33fea5d7)
+        ;
+
+        
+    
+    
+            var circle_marker_ba15307e671b4daeb238e950844f3e6d = L.circleMarker(
+                [31.113, 130.539],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.25, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_5b84ef05c723fb6f786e3b3c3baa9e92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13445a81669827353572a6f82f384c32 = $(`<div id="html_13445a81669827353572a6f82f384c32" style="width: 100.0%; height: 100.0%;">Magnitude: 5.5 | Location: 17 km SW of Ibusuki, Japan</div>`)[0];
+                popup_5b84ef05c723fb6f786e3b3c3baa9e92.setContent(html_13445a81669827353572a6f82f384c32);
+            
+        
+
+        circle_marker_ba15307e671b4daeb238e950844f3e6d.bindPopup(popup_5b84ef05c723fb6f786e3b3c3baa9e92)
+        ;
+
+        
+    
+    
+            var circle_marker_4e9560e5bad6eab83e5a24dd52e70387 = L.circleMarker(
+                [12.1114, -86.3881],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.25, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_3accfe6f9d17474e9e3ce2423c030c90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b70d593fc68187c691c44997c49cea50 = $(`<div id="html_b70d593fc68187c691c44997c49cea50" style="width: 100.0%; height: 100.0%;">Magnitude: 5.5 | Location: 7 km SW of Ciudad Sandino, Nicaragua</div>`)[0];
+                popup_3accfe6f9d17474e9e3ce2423c030c90.setContent(html_b70d593fc68187c691c44997c49cea50);
+            
+        
+
+        circle_marker_4e9560e5bad6eab83e5a24dd52e70387.bindPopup(popup_3accfe6f9d17474e9e3ce2423c030c90)
+        ;
+
+        
+    
+    
+            var circle_marker_0e1356dd906f49ae62c6230f89003f7b = L.circleMarker(
+                [-33.0375, -178.5406],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.25, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_075f927e3387e8a65196e15e80fcf920 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14f9576b56d10724c0e994a89b877261 = $(`<div id="html_14f9576b56d10724c0e994a89b877261" style="width: 100.0%; height: 100.0%;">Magnitude: 5.5 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_075f927e3387e8a65196e15e80fcf920.setContent(html_14f9576b56d10724c0e994a89b877261);
+            
+        
+
+        circle_marker_0e1356dd906f49ae62c6230f89003f7b.bindPopup(popup_075f927e3387e8a65196e15e80fcf920)
+        ;
+
+        
+    
+    
+            var circle_marker_0f57a4cbc081d47fa8f533772d0817a9 = L.circleMarker(
+                [39.7204, 20.7101],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.25, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d7f4037e575217ea0a0797eeb9a07174 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26f5e3fe62fc96e6441c3d61cbd0e102 = $(`<div id="html_26f5e3fe62fc96e6441c3d61cbd0e102" style="width: 100.0%; height: 100.0%;">Magnitude: 5.5 | Location: 1 km NW of Rodotópi, Greece</div>`)[0];
+                popup_d7f4037e575217ea0a0797eeb9a07174.setContent(html_26f5e3fe62fc96e6441c3d61cbd0e102);
+            
+        
+
+        circle_marker_0f57a4cbc081d47fa8f533772d0817a9.bindPopup(popup_d7f4037e575217ea0a0797eeb9a07174)
+        ;
+
+        
+    
+    
+            var circle_marker_6bfcb4dbf442b0f8e3bb6909ace961e9 = L.circleMarker(
+                [52.106, -168.9557],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.25, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_3c112abe47f5999ade1ca9d1db7bcbc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c479f2eac38238bec79252531c2a1be7 = $(`<div id="html_c479f2eac38238bec79252531c2a1be7" style="width: 100.0%; height: 100.0%;">Magnitude: 5.5 | Location: 92 km S of Nikolski, Alaska</div>`)[0];
+                popup_3c112abe47f5999ade1ca9d1db7bcbc3.setContent(html_c479f2eac38238bec79252531c2a1be7);
+            
+        
+
+        circle_marker_6bfcb4dbf442b0f8e3bb6909ace961e9.bindPopup(popup_3c112abe47f5999ade1ca9d1db7bcbc3)
+        ;
+
+        
+    
+    
+            var circle_marker_38a91c55921f6a8df9743bc5d9666155 = L.circleMarker(
+                [39.3861, 143.186],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_26eb0891f387f66e20495b6f95c5cc6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d327bb73c245d17a65c65c7376117ad = $(`<div id="html_8d327bb73c245d17a65c65c7376117ad" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 106 km E of Yamada, Japan</div>`)[0];
+                popup_26eb0891f387f66e20495b6f95c5cc6b.setContent(html_8d327bb73c245d17a65c65c7376117ad);
+            
+        
+
+        circle_marker_38a91c55921f6a8df9743bc5d9666155.bindPopup(popup_26eb0891f387f66e20495b6f95c5cc6b)
+        ;
+
+        
+    
+    
+            var circle_marker_b20bedcae39502149bbbcfda2a8d9bdf = L.circleMarker(
+                [4.9769, -82.5755],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_aa7b09fca3936120ec627faa9a787377 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2e287e14a21a25abc2ec3bab70e8de8 = $(`<div id="html_d2e287e14a21a25abc2ec3bab70e8de8" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: south of Panama</div>`)[0];
+                popup_aa7b09fca3936120ec627faa9a787377.setContent(html_d2e287e14a21a25abc2ec3bab70e8de8);
+            
+        
+
+        circle_marker_b20bedcae39502149bbbcfda2a8d9bdf.bindPopup(popup_aa7b09fca3936120ec627faa9a787377)
+        ;
+
+        
+    
+    
+            var circle_marker_33fb9fe609022860c7ea6c9d4996b748 = L.circleMarker(
+                [-21.423, 68.7092],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_95788a5c28e5f3a86bf5268b45b00153 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b48c725544056681fc4e0a85ca16441f = $(`<div id="html_b48c725544056681fc4e0a85ca16441f" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: Mid-Indian Ridge</div>`)[0];
+                popup_95788a5c28e5f3a86bf5268b45b00153.setContent(html_b48c725544056681fc4e0a85ca16441f);
+            
+        
+
+        circle_marker_33fb9fe609022860c7ea6c9d4996b748.bindPopup(popup_95788a5c28e5f3a86bf5268b45b00153)
+        ;
+
+        
+    
+    
+            var circle_marker_8cecb1e240aa6b039b683a2ff8532158 = L.circleMarker(
+                [52.165, 176.3407],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_db6eb691ca9748aa8bfb5f09f3923fdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8d59cba5f2eb1780de8f07ab86be2ea = $(`<div id="html_a8d59cba5f2eb1780de8f07ab86be2ea" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 227 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_db6eb691ca9748aa8bfb5f09f3923fdd.setContent(html_a8d59cba5f2eb1780de8f07ab86be2ea);
+            
+        
+
+        circle_marker_8cecb1e240aa6b039b683a2ff8532158.bindPopup(popup_db6eb691ca9748aa8bfb5f09f3923fdd)
+        ;
+
+        
+    
+    
+            var circle_marker_82a60e64b736cf4bcd971a11ec5dccf2 = L.circleMarker(
+                [29.4276, 130.7265],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_aa082aa91fd0107b341473af8c6550ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb124275085771181071efacdb8c8869 = $(`<div id="html_eb124275085771181071efacdb8c8869" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 91 km SSE of Koshima, Japan</div>`)[0];
+                popup_aa082aa91fd0107b341473af8c6550ad.setContent(html_eb124275085771181071efacdb8c8869);
+            
+        
+
+        circle_marker_82a60e64b736cf4bcd971a11ec5dccf2.bindPopup(popup_aa082aa91fd0107b341473af8c6550ad)
+        ;
+
+        
+    
+    
+            var circle_marker_c9b4bac4ff7913a6d8ed108541f030b6 = L.circleMarker(
+                [-55.4876, -124.8018],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_6d29c5de8ac5205ed6373b2f276ef499 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f780b97b497903dbcf646bc22a737db2 = $(`<div id="html_f780b97b497903dbcf646bc22a737db2" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: southern East Pacific Rise</div>`)[0];
+                popup_6d29c5de8ac5205ed6373b2f276ef499.setContent(html_f780b97b497903dbcf646bc22a737db2);
+            
+        
+
+        circle_marker_c9b4bac4ff7913a6d8ed108541f030b6.bindPopup(popup_6d29c5de8ac5205ed6373b2f276ef499)
+        ;
+
+        
+    
+    
+            var circle_marker_944144af72abfe66f9980284f43399fc = L.circleMarker(
+                [-15.9208, -172.4385],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_581a0e3196cac16d734d67788f3ef9d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c6eb1ebfaa5452c148b7e9a96c8ecd7 = $(`<div id="html_2c6eb1ebfaa5452c148b7e9a96c8ecd7" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 145 km E of Hihifo, Tonga</div>`)[0];
+                popup_581a0e3196cac16d734d67788f3ef9d8.setContent(html_2c6eb1ebfaa5452c148b7e9a96c8ecd7);
+            
+        
+
+        circle_marker_944144af72abfe66f9980284f43399fc.bindPopup(popup_581a0e3196cac16d734d67788f3ef9d8)
+        ;
+
+        
+    
+    
+            var circle_marker_a2ec937b608612e282f52c0fa67962cc = L.circleMarker(
+                [11.4154, -86.8927],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_42c36d11200fc8921f467038631a0198 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_841d6681c0c244a5b503b63ec4c93cc1 = $(`<div id="html_841d6681c0c244a5b503b63ec4c93cc1" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 58 km SW of Masachapa, Nicaragua</div>`)[0];
+                popup_42c36d11200fc8921f467038631a0198.setContent(html_841d6681c0c244a5b503b63ec4c93cc1);
+            
+        
+
+        circle_marker_a2ec937b608612e282f52c0fa67962cc.bindPopup(popup_42c36d11200fc8921f467038631a0198)
+        ;
+
+        
+    
+    
+            var circle_marker_c63ffe4ff81f76cc5d5b112645456624 = L.circleMarker(
+                [-15.2696, 167.4673],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_6542773caf9f7f02c0b2f748a66ad710 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da2896f43dd258e06654b3b5e37f3992 = $(`<div id="html_da2896f43dd258e06654b3b5e37f3992" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 42 km NE of Luganville, Vanuatu</div>`)[0];
+                popup_6542773caf9f7f02c0b2f748a66ad710.setContent(html_da2896f43dd258e06654b3b5e37f3992);
+            
+        
+
+        circle_marker_c63ffe4ff81f76cc5d5b112645456624.bindPopup(popup_6542773caf9f7f02c0b2f748a66ad710)
+        ;
+
+        
+    
+    
+            var circle_marker_ff5fe9d3c430f15a9dfa060547e6e61b = L.circleMarker(
+                [-3.5806, 140.3182],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_551c1b43fd64fec136c9bf39be54867e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c47a13a48c13c3144ceee76ab7f6cce = $(`<div id="html_5c47a13a48c13c3144ceee76ab7f6cce" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 114 km SSW of Abepura, Indonesia</div>`)[0];
+                popup_551c1b43fd64fec136c9bf39be54867e.setContent(html_5c47a13a48c13c3144ceee76ab7f6cce);
+            
+        
+
+        circle_marker_ff5fe9d3c430f15a9dfa060547e6e61b.bindPopup(popup_551c1b43fd64fec136c9bf39be54867e)
+        ;
+
+        
+    
+    
+            var circle_marker_7acd42a5216481d6195cdda645313731 = L.circleMarker(
+                [-5.4366, 153.7281],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.100000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_36f2f8e4b991463a8a650b668f0bbc31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62b2b47b3fb8ceb21c30d95ae9bbd80b = $(`<div id="html_62b2b47b3fb8ceb21c30d95ae9bbd80b" style="width: 100.0%; height: 100.0%;">Magnitude: 5.4 | Location: 202 km SE of Kokopo, Papua New Guinea</div>`)[0];
+                popup_36f2f8e4b991463a8a650b668f0bbc31.setContent(html_62b2b47b3fb8ceb21c30d95ae9bbd80b);
+            
+        
+
+        circle_marker_7acd42a5216481d6195cdda645313731.bindPopup(popup_36f2f8e4b991463a8a650b668f0bbc31)
+        ;
+
+        
+    
+    
+            var circle_marker_9f3ff218f36f3f705278440637dbb06e = L.circleMarker(
+                [23.9957, -45.8423],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_3d289a2214b01bc1278ddb7de1e5b53a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f65af945fbb880b3b0145607b829c033 = $(`<div id="html_f65af945fbb880b3b0145607b829c033" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: northern Mid-Atlantic Ridge</div>`)[0];
+                popup_3d289a2214b01bc1278ddb7de1e5b53a.setContent(html_f65af945fbb880b3b0145607b829c033);
+            
+        
+
+        circle_marker_9f3ff218f36f3f705278440637dbb06e.bindPopup(popup_3d289a2214b01bc1278ddb7de1e5b53a)
+        ;
+
+        
+    
+    
+            var circle_marker_f198ca83b3884ac0eacfe58c65a20831 = L.circleMarker(
+                [-21.8623, -176.6279],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_39f23c29aa7927c279c3fe1a15767bc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1fc5caa5d1c2e59c2833710ad74d730 = $(`<div id="html_e1fc5caa5d1c2e59c2833710ad74d730" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 157 km WSW of Houma, Tonga</div>`)[0];
+                popup_39f23c29aa7927c279c3fe1a15767bc2.setContent(html_e1fc5caa5d1c2e59c2833710ad74d730);
+            
+        
+
+        circle_marker_f198ca83b3884ac0eacfe58c65a20831.bindPopup(popup_39f23c29aa7927c279c3fe1a15767bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_f83eb93dc67e4c5f3ce822618336eadf = L.circleMarker(
+                [-32.9307, -178.4117],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_c22e604c681e324222354cff4ff0688c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c89dd5f21427e36d8e271e74d25c409 = $(`<div id="html_9c89dd5f21427e36d8e271e74d25c409" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_c22e604c681e324222354cff4ff0688c.setContent(html_9c89dd5f21427e36d8e271e74d25c409);
+            
+        
+
+        circle_marker_f83eb93dc67e4c5f3ce822618336eadf.bindPopup(popup_c22e604c681e324222354cff4ff0688c)
+        ;
+
+        
+    
+    
+            var circle_marker_263df6729b8554655e17984101231541 = L.circleMarker(
+                [-48.9945, 166.4955],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_a4a9d6a2b9a46f362d4521ee4b67a1b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f10599f669e613b3622dcb4d7145aa13 = $(`<div id="html_f10599f669e613b3622dcb4d7145aa13" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 299 km SSW of Bluff, New Zealand</div>`)[0];
+                popup_a4a9d6a2b9a46f362d4521ee4b67a1b7.setContent(html_f10599f669e613b3622dcb4d7145aa13);
+            
+        
+
+        circle_marker_263df6729b8554655e17984101231541.bindPopup(popup_a4a9d6a2b9a46f362d4521ee4b67a1b7)
+        ;
+
+        
+    
+    
+            var circle_marker_c41ac527bd7f00b7b1fcf2f23ce97055 = L.circleMarker(
+                [52.2579, 176.429],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_608e6004d30a7af863f1a38e08e92f62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3f1c59d4248485e65d8af29a2078893 = $(`<div id="html_f3f1c59d4248485e65d8af29a2078893" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 229 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_608e6004d30a7af863f1a38e08e92f62.setContent(html_f3f1c59d4248485e65d8af29a2078893);
+            
+        
+
+        circle_marker_c41ac527bd7f00b7b1fcf2f23ce97055.bindPopup(popup_608e6004d30a7af863f1a38e08e92f62)
+        ;
+
+        
+    
+    
+            var circle_marker_6f0ecb9e13ec0ae92373b37475ab5db6 = L.circleMarker(
+                [0.1142, -16.9321],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ffb2e485aed92634617d50f7ef434089 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce436edcd704cf43652a24e6b6fb4450 = $(`<div id="html_ce436edcd704cf43652a24e6b6fb4450" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: north of Ascension Island</div>`)[0];
+                popup_ffb2e485aed92634617d50f7ef434089.setContent(html_ce436edcd704cf43652a24e6b6fb4450);
+            
+        
+
+        circle_marker_6f0ecb9e13ec0ae92373b37475ab5db6.bindPopup(popup_ffb2e485aed92634617d50f7ef434089)
+        ;
+
+        
+    
+    
+            var circle_marker_61a1cacc2bbbbe550379681f40b8d232 = L.circleMarker(
+                [52.3183, 176.4354],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_5526559791bafa17c74815fe98fbec02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7283744a89b8645b7dd9511618898ef6 = $(`<div id="html_7283744a89b8645b7dd9511618898ef6" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 227 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_5526559791bafa17c74815fe98fbec02.setContent(html_7283744a89b8645b7dd9511618898ef6);
+            
+        
+
+        circle_marker_61a1cacc2bbbbe550379681f40b8d232.bindPopup(popup_5526559791bafa17c74815fe98fbec02)
+        ;
+
+        
+    
+    
+            var circle_marker_64f0fc5779ed31024c7da169b92b96a9 = L.circleMarker(
+                [-29.9481, -177.9293],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_8307ccce0a1c6fa6f4867c3cc700eac0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8be85d847726e944e2c4c7a18cb957a8 = $(`<div id="html_8be85d847726e944e2c4c7a18cb957a8" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: Kermadec Islands, New Zealand</div>`)[0];
+                popup_8307ccce0a1c6fa6f4867c3cc700eac0.setContent(html_8be85d847726e944e2c4c7a18cb957a8);
+            
+        
+
+        circle_marker_64f0fc5779ed31024c7da169b92b96a9.bindPopup(popup_8307ccce0a1c6fa6f4867c3cc700eac0)
+        ;
+
+        
+    
+    
+            var circle_marker_6d80a1bdf9d730e16fd1d5336ab5b5e1 = L.circleMarker(
+                [12.5827, -88.3235],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_3b3448daf13ac07a9c2f7e005fde4835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e22d4ae0b50f4aa885ffee53f606e65 = $(`<div id="html_1e22d4ae0b50f4aa885ffee53f606e65" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 73 km SSW of Chirilagua, El Salvador</div>`)[0];
+                popup_3b3448daf13ac07a9c2f7e005fde4835.setContent(html_1e22d4ae0b50f4aa885ffee53f606e65);
+            
+        
+
+        circle_marker_6d80a1bdf9d730e16fd1d5336ab5b5e1.bindPopup(popup_3b3448daf13ac07a9c2f7e005fde4835)
+        ;
+
+        
+    
+    
+            var circle_marker_d0a4192d0d190d52cb70608f69c5e90b = L.circleMarker(
+                [36.555, 74.4535],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_c89decfefcf7eb6a9cf32f8ba615422b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ca7757ecb5048dedb9e06c6b70b650f = $(`<div id="html_1ca7757ecb5048dedb9e06c6b70b650f" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 33 km NW of Barishal, Pakistan</div>`)[0];
+                popup_c89decfefcf7eb6a9cf32f8ba615422b.setContent(html_1ca7757ecb5048dedb9e06c6b70b650f);
+            
+        
+
+        circle_marker_d0a4192d0d190d52cb70608f69c5e90b.bindPopup(popup_c89decfefcf7eb6a9cf32f8ba615422b)
+        ;
+
+        
+    
+    
+            var circle_marker_f6608889c0b7d01afa3cc5b4c341edca = L.circleMarker(
+                [-61.1426, 154.6539],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f63263341d135c2df322c3ed1578945c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f6f3186f043914552569a2c50d6b710 = $(`<div id="html_1f6f3186f043914552569a2c50d6b710" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: Balleny Islands region</div>`)[0];
+                popup_f63263341d135c2df322c3ed1578945c.setContent(html_1f6f3186f043914552569a2c50d6b710);
+            
+        
+
+        circle_marker_f6608889c0b7d01afa3cc5b4c341edca.bindPopup(popup_f63263341d135c2df322c3ed1578945c)
+        ;
+
+        
+    
+    
+            var circle_marker_dbeb48c6f8b649839a9274b695e53e3c = L.circleMarker(
+                [52.1503, 176.4619],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_1e128f209641f4363d691aa002868137 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_191d590fb78d3f52aed641d26745954a = $(`<div id="html_191d590fb78d3f52aed641d26745954a" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 235 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_1e128f209641f4363d691aa002868137.setContent(html_191d590fb78d3f52aed641d26745954a);
+            
+        
+
+        circle_marker_dbeb48c6f8b649839a9274b695e53e3c.bindPopup(popup_1e128f209641f4363d691aa002868137)
+        ;
+
+        
+    
+    
+            var circle_marker_c45bf83ccc7234794fc5c7007148f218 = L.circleMarker(
+                [40.6932, 36.7643],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_01aca54738048c8d1cf176bb10aa8b10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d2d5211760497509413488f90e8dc98 = $(`<div id="html_4d2d5211760497509413488f90e8dc98" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 16 km E of Erbaa, Turkey</div>`)[0];
+                popup_01aca54738048c8d1cf176bb10aa8b10.setContent(html_4d2d5211760497509413488f90e8dc98);
+            
+        
+
+        circle_marker_c45bf83ccc7234794fc5c7007148f218.bindPopup(popup_01aca54738048c8d1cf176bb10aa8b10)
+        ;
+
+        
+    
+    
+            var circle_marker_35073d54aaf964717e4373ef42cc96ba = L.circleMarker(
+                [-49.8554, 110.1744],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d726653831bbcd3ac861a84a5ee1b899 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66d4defa2c6ac6cd3b9ca69658284d15 = $(`<div id="html_66d4defa2c6ac6cd3b9ca69658284d15" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: southeast Indian Ridge</div>`)[0];
+                popup_d726653831bbcd3ac861a84a5ee1b899.setContent(html_66d4defa2c6ac6cd3b9ca69658284d15);
+            
+        
+
+        circle_marker_35073d54aaf964717e4373ef42cc96ba.bindPopup(popup_d726653831bbcd3ac861a84a5ee1b899)
+        ;
+
+        
+    
+    
+            var circle_marker_405aae9c74d0f134c131254b8eb040c5 = L.circleMarker(
+                [-45.6181, -77.2551],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_84bdb2ea990d6f6e57050a618678cbb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b35ebe70f2e26738e4d7d9d8e72e7bd5 = $(`<div id="html_b35ebe70f2e26738e4d7d9d8e72e7bd5" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: Off the coast of Aisen, Chile</div>`)[0];
+                popup_84bdb2ea990d6f6e57050a618678cbb0.setContent(html_b35ebe70f2e26738e4d7d9d8e72e7bd5);
+            
+        
+
+        circle_marker_405aae9c74d0f134c131254b8eb040c5.bindPopup(popup_84bdb2ea990d6f6e57050a618678cbb0)
+        ;
+
+        
+    
+    
+            var circle_marker_7fb1aa4e2b528f00337243ceb9b8add9 = L.circleMarker(
+                [12.6793, -88.2459],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_da6debbefb7f369d0b8392ad2270ead5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cca9dc78b568851c634243612e93f015 = $(`<div id="html_cca9dc78b568851c634243612e93f015" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 60 km SSW of Intipucá, El Salvador</div>`)[0];
+                popup_da6debbefb7f369d0b8392ad2270ead5.setContent(html_cca9dc78b568851c634243612e93f015);
+            
+        
+
+        circle_marker_7fb1aa4e2b528f00337243ceb9b8add9.bindPopup(popup_da6debbefb7f369d0b8392ad2270ead5)
+        ;
+
+        
+    
+    
+            var circle_marker_df9354dc576a77c895b64caa118429ac = L.circleMarker(
+                [16.6128, -46.5425],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_a7cfa05b229f9bc33e0be7d4be0aef38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a412f6ebd1f581cbec1b11e8dffe2db3 = $(`<div id="html_a412f6ebd1f581cbec1b11e8dffe2db3" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: northern Mid-Atlantic Ridge</div>`)[0];
+                popup_a7cfa05b229f9bc33e0be7d4be0aef38.setContent(html_a412f6ebd1f581cbec1b11e8dffe2db3);
+            
+        
+
+        circle_marker_df9354dc576a77c895b64caa118429ac.bindPopup(popup_a7cfa05b229f9bc33e0be7d4be0aef38)
+        ;
+
+        
+    
+    
+            var circle_marker_44fae5d725095b35618020b6ef5c83ba = L.circleMarker(
+                [1.6563, 128.6057],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_4f855564950331b81f149b8a8b5f380d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c278906d29d51632a260c635d2bfdee = $(`<div id="html_0c278906d29d51632a260c635d2bfdee" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: 66 km E of Tobelo, Indonesia</div>`)[0];
+                popup_4f855564950331b81f149b8a8b5f380d.setContent(html_0c278906d29d51632a260c635d2bfdee);
+            
+        
+
+        circle_marker_44fae5d725095b35618020b6ef5c83ba.bindPopup(popup_4f855564950331b81f149b8a8b5f380d)
+        ;
+
+        
+    
+    
+            var circle_marker_8556f9102dbd7b365d8b24c734ef2da4 = L.circleMarker(
+                [-54.035, 7.688],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.949999999999999, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_06568f0bc4420df9e9f554ad97662c85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2b8e99011b577eec4ecde57254c6d07 = $(`<div id="html_f2b8e99011b577eec4ecde57254c6d07" style="width: 100.0%; height: 100.0%;">Magnitude: 5.3 | Location: Bouvet Island region</div>`)[0];
+                popup_06568f0bc4420df9e9f554ad97662c85.setContent(html_f2b8e99011b577eec4ecde57254c6d07);
+            
+        
+
+        circle_marker_8556f9102dbd7b365d8b24c734ef2da4.bindPopup(popup_06568f0bc4420df9e9f554ad97662c85)
+        ;
+
+        
+    
+    
+            var circle_marker_bde72dc029e9ee7f2e3528e136af2510 = L.circleMarker(
+                [-62.4454, 165.4581],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d50bd103496d799980c7d28c8bf26d50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d67a9c2c51d260704839ec2c707b987 = $(`<div id="html_3d67a9c2c51d260704839ec2c707b987" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: Balleny Islands region</div>`)[0];
+                popup_d50bd103496d799980c7d28c8bf26d50.setContent(html_3d67a9c2c51d260704839ec2c707b987);
+            
+        
+
+        circle_marker_bde72dc029e9ee7f2e3528e136af2510.bindPopup(popup_d50bd103496d799980c7d28c8bf26d50)
+        ;
+
+        
+    
+    
+            var circle_marker_6d5eedb27d59813303fab4a7d5eb8c56 = L.circleMarker(
+                [23.7447, 121.5665],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ea76614f63cf9608f64ffc1a9f163fd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e886115ad2b5ec68403bcf96fe780c2c = $(`<div id="html_e886115ad2b5ec68403bcf96fe780c2c" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 26 km S of Hualien City, Taiwan</div>`)[0];
+                popup_ea76614f63cf9608f64ffc1a9f163fd3.setContent(html_e886115ad2b5ec68403bcf96fe780c2c);
+            
+        
+
+        circle_marker_6d5eedb27d59813303fab4a7d5eb8c56.bindPopup(popup_ea76614f63cf9608f64ffc1a9f163fd3)
+        ;
+
+        
+    
+    
+            var circle_marker_893732266082de58a378afea5303586c = L.circleMarker(
+                [7.13, -82.3532],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_1dcaee3e16612144341fccef16d393bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65122605c7f13ab3789eb2e849bb5bab = $(`<div id="html_65122605c7f13ab3789eb2e849bb5bab" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 115 km SSE of Burica, Panama</div>`)[0];
+                popup_1dcaee3e16612144341fccef16d393bb.setContent(html_65122605c7f13ab3789eb2e849bb5bab);
+            
+        
+
+        circle_marker_893732266082de58a378afea5303586c.bindPopup(popup_1dcaee3e16612144341fccef16d393bb)
+        ;
+
+        
+    
+    
+            var circle_marker_3c13db9c393ca6c9722e2a0d83895e9c = L.circleMarker(
+                [18.9424, -62.6058],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_42015047e6b9cef75955c3013e1053e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_985d06b96e0a32b67a036a605d11de43 = $(`<div id="html_985d06b96e0a32b67a036a605d11de43" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 93 km NNE of The Valley, Anguilla</div>`)[0];
+                popup_42015047e6b9cef75955c3013e1053e4.setContent(html_985d06b96e0a32b67a036a605d11de43);
+            
+        
+
+        circle_marker_3c13db9c393ca6c9722e2a0d83895e9c.bindPopup(popup_42015047e6b9cef75955c3013e1053e4)
+        ;
+
+        
+    
+    
+            var circle_marker_809512253d3add15f9cfce756863d72d = L.circleMarker(
+                [-18.4693, -175.46],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_9afde4fba8f52e97818b1d18c7f17137 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3c0761ac8590818a574b809a49fed6c = $(`<div id="html_a3c0761ac8590818a574b809a49fed6c" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 157 km W of Neiafu, Tonga</div>`)[0];
+                popup_9afde4fba8f52e97818b1d18c7f17137.setContent(html_a3c0761ac8590818a574b809a49fed6c);
+            
+        
+
+        circle_marker_809512253d3add15f9cfce756863d72d.bindPopup(popup_9afde4fba8f52e97818b1d18c7f17137)
+        ;
+
+        
+    
+    
+            var circle_marker_d913744bb800f67fd6530b7d32bc33e0 = L.circleMarker(
+                [52.2269, 176.4127],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f8e9b7886cda5d07ad6a8a8114c6e719 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38c72169b3dc159b62cb20a0e812211e = $(`<div id="html_38c72169b3dc159b62cb20a0e812211e" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 229 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_f8e9b7886cda5d07ad6a8a8114c6e719.setContent(html_38c72169b3dc159b62cb20a0e812211e);
+            
+        
+
+        circle_marker_d913744bb800f67fd6530b7d32bc33e0.bindPopup(popup_f8e9b7886cda5d07ad6a8a8114c6e719)
+        ;
+
+        
+    
+    
+            var circle_marker_8d13419f6eec24a366ba13796eca38e7 = L.circleMarker(
+                [43.761, 86.4216],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_5694ba2e1ceda0d9f2db6f32f1b11ac2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4442f3f6ba4a3c3db9e74d539033d906 = $(`<div id="html_4442f3f6ba4a3c3db9e74d539033d906" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 67 km SSE of Shihezi, China</div>`)[0];
+                popup_5694ba2e1ceda0d9f2db6f32f1b11ac2.setContent(html_4442f3f6ba4a3c3db9e74d539033d906);
+            
+        
+
+        circle_marker_8d13419f6eec24a366ba13796eca38e7.bindPopup(popup_5694ba2e1ceda0d9f2db6f32f1b11ac2)
+        ;
+
+        
+    
+    
+            var circle_marker_b29c84c1ac0ad278ea2a5af476031f2a = L.circleMarker(
+                [-15.6261, -174.4632],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_325d642e4d3ec5d713f5a70fb36a13bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c85f163def5499f1fa7f6145cfba046 = $(`<div id="html_8c85f163def5499f1fa7f6145cfba046" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 80 km WNW of Hihifo, Tonga</div>`)[0];
+                popup_325d642e4d3ec5d713f5a70fb36a13bf.setContent(html_8c85f163def5499f1fa7f6145cfba046);
+            
+        
+
+        circle_marker_b29c84c1ac0ad278ea2a5af476031f2a.bindPopup(popup_325d642e4d3ec5d713f5a70fb36a13bf)
+        ;
+
+        
+    
+    
+            var circle_marker_f6c7f9b50c8cdc76a4f7c287a7b9d246 = L.circleMarker(
+                [25.1989, 124.9998],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_fb7b19b074666ec17982c6bb99187d24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20b7e84d56542f65a33915ed9622f2a2 = $(`<div id="html_20b7e84d56542f65a33915ed9622f2a2" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 53 km NW of Hirara, Japan</div>`)[0];
+                popup_fb7b19b074666ec17982c6bb99187d24.setContent(html_20b7e84d56542f65a33915ed9622f2a2);
+            
+        
+
+        circle_marker_f6c7f9b50c8cdc76a4f7c287a7b9d246.bindPopup(popup_fb7b19b074666ec17982c6bb99187d24)
+        ;
+
+        
+    
+    
+            var circle_marker_f0914af5fdd85e6bc4abcaea8b7ebd7a = L.circleMarker(
+                [-15.2251, 66.9505],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_287ac7756cc1d64fea5f52f9434fbaaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe06760f529da7d1ed29c2af5001fd55 = $(`<div id="html_fe06760f529da7d1ed29c2af5001fd55" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: Mid-Indian Ridge</div>`)[0];
+                popup_287ac7756cc1d64fea5f52f9434fbaaa.setContent(html_fe06760f529da7d1ed29c2af5001fd55);
+            
+        
+
+        circle_marker_f0914af5fdd85e6bc4abcaea8b7ebd7a.bindPopup(popup_287ac7756cc1d64fea5f52f9434fbaaa)
+        ;
+
+        
+    
+    
+            var circle_marker_cb4e3f7c35c0aecace4816d6df7ed7cb = L.circleMarker(
+                [-3.6398, 149.713],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d8528057216b53647fb68143b2886b8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ef92b77e26dd78f36593ab27145ef2c = $(`<div id="html_8ef92b77e26dd78f36593ab27145ef2c" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 168 km SW of Kavieng, Papua New Guinea</div>`)[0];
+                popup_d8528057216b53647fb68143b2886b8b.setContent(html_8ef92b77e26dd78f36593ab27145ef2c);
+            
+        
+
+        circle_marker_cb4e3f7c35c0aecace4816d6df7ed7cb.bindPopup(popup_d8528057216b53647fb68143b2886b8b)
+        ;
+
+        
+    
+    
+            var circle_marker_ee9a8be41c96a94a71e693cb8c235ed1 = L.circleMarker(
+                [2.0078, 96.582],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_082eca555e9c19f59455086cc9a3ddfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af2145d028fb6b8be5cdff5e6fdcb96d = $(`<div id="html_af2145d028fb6b8be5cdff5e6fdcb96d" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 56 km SSE of Sinabang, Indonesia</div>`)[0];
+                popup_082eca555e9c19f59455086cc9a3ddfa.setContent(html_af2145d028fb6b8be5cdff5e6fdcb96d);
+            
+        
+
+        circle_marker_ee9a8be41c96a94a71e693cb8c235ed1.bindPopup(popup_082eca555e9c19f59455086cc9a3ddfa)
+        ;
+
+        
+    
+    
+            var circle_marker_48f4b32d30b6c8e89f6a8175de3a6c36 = L.circleMarker(
+                [-33.6771, -179.3487],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_30986acb3d63c67671fcbbca8b348c3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e3e32ef60dc90cf15eb3e0dd47c1286 = $(`<div id="html_8e3e32ef60dc90cf15eb3e0dd47c1286" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_30986acb3d63c67671fcbbca8b348c3d.setContent(html_8e3e32ef60dc90cf15eb3e0dd47c1286);
+            
+        
+
+        circle_marker_48f4b32d30b6c8e89f6a8175de3a6c36.bindPopup(popup_30986acb3d63c67671fcbbca8b348c3d)
+        ;
+
+        
+    
+    
+            var circle_marker_5289ebf13fa2e5f7c9099b480a816c05 = L.circleMarker(
+                [-2.9146, 101.6406],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f422d056f5d57fd8f41c306015a16d22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_296c72fd4a893ef99867d777a023f2fe = $(`<div id="html_296c72fd4a893ef99867d777a023f2fe" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 98 km SSE of Sungai Penuh, Indonesia</div>`)[0];
+                popup_f422d056f5d57fd8f41c306015a16d22.setContent(html_296c72fd4a893ef99867d777a023f2fe);
+            
+        
+
+        circle_marker_5289ebf13fa2e5f7c9099b480a816c05.bindPopup(popup_f422d056f5d57fd8f41c306015a16d22)
+        ;
+
+        
+    
+    
+            var circle_marker_2a0e0db4bdb2cc4232a7029deac178cc = L.circleMarker(
+                [-58.7858, -25.6013],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_5af0b77bdf478f645000077d84d87780 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa67595d804e744778b2acf6bdf97945 = $(`<div id="html_aa67595d804e744778b2acf6bdf97945" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: South Sandwich Islands region</div>`)[0];
+                popup_5af0b77bdf478f645000077d84d87780.setContent(html_aa67595d804e744778b2acf6bdf97945);
+            
+        
+
+        circle_marker_2a0e0db4bdb2cc4232a7029deac178cc.bindPopup(popup_5af0b77bdf478f645000077d84d87780)
+        ;
+
+        
+    
+    
+            var circle_marker_131d3f13312287cff52d66028c211d4d = L.circleMarker(
+                [-28.2374, -176.6216],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_0eb9870fe11382bf98eeb2a218e08bf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bdd9f0443bcf5bd4fe64d9ac92fe6e0 = $(`<div id="html_9bdd9f0443bcf5bd4fe64d9ac92fe6e0" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: Kermadec Islands region</div>`)[0];
+                popup_0eb9870fe11382bf98eeb2a218e08bf1.setContent(html_9bdd9f0443bcf5bd4fe64d9ac92fe6e0);
+            
+        
+
+        circle_marker_131d3f13312287cff52d66028c211d4d.bindPopup(popup_0eb9870fe11382bf98eeb2a218e08bf1)
+        ;
+
+        
+    
+    
+            var circle_marker_347f4931dde871b968d9a9b4f21d992d = L.circleMarker(
+                [-7.4927, 107.0915],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f4b30325e34017453385080f8fd2efdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13bb523a9edb3780b3bcdb9bf7e4a1b4 = $(`<div id="html_13bb523a9edb3780b3bcdb9bf7e4a1b4" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 49 km SW of Banjar, Indonesia</div>`)[0];
+                popup_f4b30325e34017453385080f8fd2efdd.setContent(html_13bb523a9edb3780b3bcdb9bf7e4a1b4);
+            
+        
+
+        circle_marker_347f4931dde871b968d9a9b4f21d992d.bindPopup(popup_f4b30325e34017453385080f8fd2efdd)
+        ;
+
+        
+    
+    
+            var circle_marker_6b23cfc1067d5632487d2362913124cf = L.circleMarker(
+                [-48.7998, 124.5947],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_e4e33984518485f782fdbaead5266449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c13bcb13feb554bc78e5391ba347eea2 = $(`<div id="html_c13bcb13feb554bc78e5391ba347eea2" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: western Indian-Antarctic Ridge</div>`)[0];
+                popup_e4e33984518485f782fdbaead5266449.setContent(html_c13bcb13feb554bc78e5391ba347eea2);
+            
+        
+
+        circle_marker_6b23cfc1067d5632487d2362913124cf.bindPopup(popup_e4e33984518485f782fdbaead5266449)
+        ;
+
+        
+    
+    
+            var circle_marker_763001d9a0a730c77cfab1b10152adf0 = L.circleMarker(
+                [-35.9195, -103.3853],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_a9fb6cac771586af5e01a567b2877f0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_034a8525d042d1f56c8a65d9307edd18 = $(`<div id="html_034a8525d042d1f56c8a65d9307edd18" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: southeast of Easter Island</div>`)[0];
+                popup_a9fb6cac771586af5e01a567b2877f0c.setContent(html_034a8525d042d1f56c8a65d9307edd18);
+            
+        
+
+        circle_marker_763001d9a0a730c77cfab1b10152adf0.bindPopup(popup_a9fb6cac771586af5e01a567b2877f0c)
+        ;
+
+        
+    
+    
+            var circle_marker_6d33cb36234d21dedd36257c430c77eb = L.circleMarker(
+                [38.5127, 14.2898],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_733515be2eafcb41c74349aa100c9d64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bf1634620cb41454b6f81e792e90e47 = $(`<div id="html_6bf1634620cb41454b6f81e792e90e47" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 46 km W of Leni, Italy</div>`)[0];
+                popup_733515be2eafcb41c74349aa100c9d64.setContent(html_6bf1634620cb41454b6f81e792e90e47);
+            
+        
+
+        circle_marker_6d33cb36234d21dedd36257c430c77eb.bindPopup(popup_733515be2eafcb41c74349aa100c9d64)
+        ;
+
+        
+    
+    
+            var circle_marker_a43e84038771368ba13c1ddbb135dcca = L.circleMarker(
+                [49.0768, 156.2599],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800000000000001, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_0707dec04892483772336a9578ae5b87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0b77c2140ce448a9368046ca375fc65 = $(`<div id="html_d0b77c2140ce448a9368046ca375fc65" style="width: 100.0%; height: 100.0%;">Magnitude: 5.2 | Location: 178 km S of Severo-Kuril’sk, Russia</div>`)[0];
+                popup_0707dec04892483772336a9578ae5b87.setContent(html_d0b77c2140ce448a9368046ca375fc65);
+            
+        
+
+        circle_marker_a43e84038771368ba13c1ddbb135dcca.bindPopup(popup_0707dec04892483772336a9578ae5b87)
+        ;
+
+        
+    
+    
+            var circle_marker_c1a23ef635d37584922a4c9d84829aa6 = L.circleMarker(
+                [15.5516, -93.1759],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_e92145f81b9727b21b754de38c3d0942 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_152ae7b58703c2bf1c93156e6904f7e6 = $(`<div id="html_152ae7b58703c2bf1c93156e6904f7e6" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 5 km WSW of El Carmen, Mexico</div>`)[0];
+                popup_e92145f81b9727b21b754de38c3d0942.setContent(html_152ae7b58703c2bf1c93156e6904f7e6);
+            
+        
+
+        circle_marker_c1a23ef635d37584922a4c9d84829aa6.bindPopup(popup_e92145f81b9727b21b754de38c3d0942)
+        ;
+
+        
+    
+    
+            var circle_marker_399f87942875dd31f98f2d1087f4cc98 = L.circleMarker(
+                [-16.4134, -173.6674],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_083f0c8b9cd71e0d4d1469b4ff6e2a7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e899d1444da2237923c9baf5ccff140 = $(`<div id="html_8e899d1444da2237923c9baf5ccff140" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 52 km SSE of Hihifo, Tonga</div>`)[0];
+                popup_083f0c8b9cd71e0d4d1469b4ff6e2a7e.setContent(html_8e899d1444da2237923c9baf5ccff140);
+            
+        
+
+        circle_marker_399f87942875dd31f98f2d1087f4cc98.bindPopup(popup_083f0c8b9cd71e0d4d1469b4ff6e2a7e)
+        ;
+
+        
+    
+    
+            var circle_marker_c6ea80ef78f7ed5bbd9469f94c1e2e2a = L.circleMarker(
+                [-47.8194, 115.9394],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b131c6c998d1b73e0f3cf0a4b053182d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11a745f4b47ec7d507ab866a8cc2f467 = $(`<div id="html_11a745f4b47ec7d507ab866a8cc2f467" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: western Indian-Antarctic Ridge</div>`)[0];
+                popup_b131c6c998d1b73e0f3cf0a4b053182d.setContent(html_11a745f4b47ec7d507ab866a8cc2f467);
+            
+        
+
+        circle_marker_c6ea80ef78f7ed5bbd9469f94c1e2e2a.bindPopup(popup_b131c6c998d1b73e0f3cf0a4b053182d)
+        ;
+
+        
+    
+    
+            var circle_marker_3e3158020d78e84ae4481b3ba77a443a = L.circleMarker(
+                [4.3504, -32.6052],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_28c4eb15c5cbbc33a5748df5d252206d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c851c194c771d1b2b24b95138f5d3b20 = $(`<div id="html_c851c194c771d1b2b24b95138f5d3b20" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: central Mid-Atlantic Ridge</div>`)[0];
+                popup_28c4eb15c5cbbc33a5748df5d252206d.setContent(html_c851c194c771d1b2b24b95138f5d3b20);
+            
+        
+
+        circle_marker_3e3158020d78e84ae4481b3ba77a443a.bindPopup(popup_28c4eb15c5cbbc33a5748df5d252206d)
+        ;
+
+        
+    
+    
+            var circle_marker_92c017a2372e16b3c868e5ba0bfd5c7c = L.circleMarker(
+                [-16.5519, -14.2891],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_bf958b790f23d96239730f0b9c4e73fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1641e459c79d5b6084b1e9c0428e1d54 = $(`<div id="html_1641e459c79d5b6084b1e9c0428e1d54" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: southern Mid-Atlantic Ridge</div>`)[0];
+                popup_bf958b790f23d96239730f0b9c4e73fe.setContent(html_1641e459c79d5b6084b1e9c0428e1d54);
+            
+        
+
+        circle_marker_92c017a2372e16b3c868e5ba0bfd5c7c.bindPopup(popup_bf958b790f23d96239730f0b9c4e73fe)
+        ;
+
+        
+    
+    
+            var circle_marker_351701c44d2f66139ca4c3dcdb08de82 = L.circleMarker(
+                [51.593, 159.7171],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_9a5e960cf3f7196d0b4d62a5754450b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e55712f2fccc002078293abedcfbdb8 = $(`<div id="html_2e55712f2fccc002078293abedcfbdb8" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 173 km SSE of Vilyuchinsk, Russia</div>`)[0];
+                popup_9a5e960cf3f7196d0b4d62a5754450b1.setContent(html_2e55712f2fccc002078293abedcfbdb8);
+            
+        
+
+        circle_marker_351701c44d2f66139ca4c3dcdb08de82.bindPopup(popup_9a5e960cf3f7196d0b4d62a5754450b1)
+        ;
+
+        
+    
+    
+            var circle_marker_be7cddabb8385ac1e506e97ddbc9095a = L.circleMarker(
+                [38.0499, 28.9554],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d5c5ac95d5ea13297c51c522cd227166 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48f4ca6fef3ab45c82fe19fd07cce936 = $(`<div id="html_48f4ca6fef3ab45c82fe19fd07cce936" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 10 km E of Buldan, Turkey</div>`)[0];
+                popup_d5c5ac95d5ea13297c51c522cd227166.setContent(html_48f4ca6fef3ab45c82fe19fd07cce936);
+            
+        
+
+        circle_marker_be7cddabb8385ac1e506e97ddbc9095a.bindPopup(popup_d5c5ac95d5ea13297c51c522cd227166)
+        ;
+
+        
+    
+    
+            var circle_marker_bb207c6840f9d56923882149848e327d = L.circleMarker(
+                [-61.1312, -56.134],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_1adf471b1b1dc9eecefe7fe450851594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07467b927ad638b9a645079ee28e68e4 = $(`<div id="html_07467b927ad638b9a645079ee28e68e4" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: South Shetland Islands</div>`)[0];
+                popup_1adf471b1b1dc9eecefe7fe450851594.setContent(html_07467b927ad638b9a645079ee28e68e4);
+            
+        
+
+        circle_marker_bb207c6840f9d56923882149848e327d.bindPopup(popup_1adf471b1b1dc9eecefe7fe450851594)
+        ;
+
+        
+    
+    
+            var circle_marker_15fcca352bbac4efacd85c6f675bbd99 = L.circleMarker(
+                [-47.4228, -9.5571],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d92e6fae800ba12c914550a2db7da2d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be93ee06fe653e793bfff3393bc613b4 = $(`<div id="html_be93ee06fe653e793bfff3393bc613b4" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: southern Mid-Atlantic Ridge</div>`)[0];
+                popup_d92e6fae800ba12c914550a2db7da2d6.setContent(html_be93ee06fe653e793bfff3393bc613b4);
+            
+        
+
+        circle_marker_15fcca352bbac4efacd85c6f675bbd99.bindPopup(popup_d92e6fae800ba12c914550a2db7da2d6)
+        ;
+
+        
+    
+    
+            var circle_marker_8e685d70ad9cf959f87d839966da87c7 = L.circleMarker(
+                [5.6351, 125.5992],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_10c83e0cd198834f1c94079486d8cba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a66ef462644382e9e69e451ce06bfa6b = $(`<div id="html_a66ef462644382e9e69e451ce06bfa6b" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 14 km SE of Kalbay, Philippines</div>`)[0];
+                popup_10c83e0cd198834f1c94079486d8cba4.setContent(html_a66ef462644382e9e69e451ce06bfa6b);
+            
+        
+
+        circle_marker_8e685d70ad9cf959f87d839966da87c7.bindPopup(popup_10c83e0cd198834f1c94079486d8cba4)
+        ;
+
+        
+    
+    
+            var circle_marker_96a39ee2212fe44fdd91be4d36cd143f = L.circleMarker(
+                [39.3975, 143.1958],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_e9151a3c35a3be03a541225b59acf1d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b7ddc1007d221b6d32a24b463b2267f = $(`<div id="html_7b7ddc1007d221b6d32a24b463b2267f" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 107 km E of Yamada, Japan</div>`)[0];
+                popup_e9151a3c35a3be03a541225b59acf1d4.setContent(html_7b7ddc1007d221b6d32a24b463b2267f);
+            
+        
+
+        circle_marker_96a39ee2212fe44fdd91be4d36cd143f.bindPopup(popup_e9151a3c35a3be03a541225b59acf1d4)
+        ;
+
+        
+    
+    
+            var circle_marker_6e74183ebadc0cc3da776cb8a04d2a91 = L.circleMarker(
+                [16.3416, -98.6324],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_e202e5368b88c5034c5c4f689e8eb1e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74477ac7cb3d595ddd87ef710b69dcfa = $(`<div id="html_74477ac7cb3d595ddd87ef710b69dcfa" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 14 km SW of San Nicolás, Mexico</div>`)[0];
+                popup_e202e5368b88c5034c5c4f689e8eb1e7.setContent(html_74477ac7cb3d595ddd87ef710b69dcfa);
+            
+        
+
+        circle_marker_6e74183ebadc0cc3da776cb8a04d2a91.bindPopup(popup_e202e5368b88c5034c5c4f689e8eb1e7)
+        ;
+
+        
+    
+    
+            var circle_marker_339d92ef78dd44f6f58e92d93cbd39e5 = L.circleMarker(
+                [26.2155, 128.8262],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_53e7c30b2c7102548a9d66145e79920a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f43854db861b6cfaea9f339f39d17f3a = $(`<div id="html_f43854db861b6cfaea9f339f39d17f3a" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 81 km SE of Taira, Japan</div>`)[0];
+                popup_53e7c30b2c7102548a9d66145e79920a.setContent(html_f43854db861b6cfaea9f339f39d17f3a);
+            
+        
+
+        circle_marker_339d92ef78dd44f6f58e92d93cbd39e5.bindPopup(popup_53e7c30b2c7102548a9d66145e79920a)
+        ;
+
+        
+    
+    
+            var circle_marker_3ae2e1a513fc288aa15ef0de4a462195 = L.circleMarker(
+                [27.9924, 128.1032],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_a0d285406fec7be97269d023ed0cbd41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75d9ca7f9cee252b45b8982a04043e6e = $(`<div id="html_75d9ca7f9cee252b45b8982a04043e6e" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 80 km WNW of Amagi, Japan</div>`)[0];
+                popup_a0d285406fec7be97269d023ed0cbd41.setContent(html_75d9ca7f9cee252b45b8982a04043e6e);
+            
+        
+
+        circle_marker_3ae2e1a513fc288aa15ef0de4a462195.bindPopup(popup_a0d285406fec7be97269d023ed0cbd41)
+        ;
+
+        
+    
+    
+            var circle_marker_333102cc16fd3b178c7b50295660d63d = L.circleMarker(
+                [40.0936, 54.2446],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ad99e16664e956ef995e3c5b08d40d97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_749b4d10fd9a53dde3b54a3ddb7873f4 = $(`<div id="html_749b4d10fd9a53dde3b54a3ddb7873f4" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 65 km N of Balkanabat, Turkmenistan</div>`)[0];
+                popup_ad99e16664e956ef995e3c5b08d40d97.setContent(html_749b4d10fd9a53dde3b54a3ddb7873f4);
+            
+        
+
+        circle_marker_333102cc16fd3b178c7b50295660d63d.bindPopup(popup_ad99e16664e956ef995e3c5b08d40d97)
+        ;
+
+        
+    
+    
+            var circle_marker_9e3581654e1d0fa9b59f0509f5ca9740 = L.circleMarker(
+                [51.5741, 159.8864],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ec01b45882f980d0cff817b85a4b2049 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a42442bc04ac6e57d5b4dec76d1f097 = $(`<div id="html_5a42442bc04ac6e57d5b4dec76d1f097" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 181 km SSE of Vilyuchinsk, Russia</div>`)[0];
+                popup_ec01b45882f980d0cff817b85a4b2049.setContent(html_5a42442bc04ac6e57d5b4dec76d1f097);
+            
+        
+
+        circle_marker_9e3581654e1d0fa9b59f0509f5ca9740.bindPopup(popup_ec01b45882f980d0cff817b85a4b2049)
+        ;
+
+        
+    
+    
+            var circle_marker_dfd320fcfc06c8268b9c9bb449643317 = L.circleMarker(
+                [-22.0798, -68.8069],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_6e9ccda2076765a918f1394d447ee115 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d6f2903d62ba949aba293db89062d72 = $(`<div id="html_4d6f2903d62ba949aba293db89062d72" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 43 km NNE of Calama, Chile</div>`)[0];
+                popup_6e9ccda2076765a918f1394d447ee115.setContent(html_4d6f2903d62ba949aba293db89062d72);
+            
+        
+
+        circle_marker_dfd320fcfc06c8268b9c9bb449643317.bindPopup(popup_6e9ccda2076765a918f1394d447ee115)
+        ;
+
+        
+    
+    
+            var circle_marker_d826bf95c8b4fb9ddb00203ca20b42d4 = L.circleMarker(
+                [12.8656, 124.4095],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_c04200f24a64c6d262011ab031b06092 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61a0bb0fd4e52ebc7880e911015e6600 = $(`<div id="html_61a0bb0fd4e52ebc7880e911015e6600" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 20 km NNE of Biri, Philippines</div>`)[0];
+                popup_c04200f24a64c6d262011ab031b06092.setContent(html_61a0bb0fd4e52ebc7880e911015e6600);
+            
+        
+
+        circle_marker_d826bf95c8b4fb9ddb00203ca20b42d4.bindPopup(popup_c04200f24a64c6d262011ab031b06092)
+        ;
+
+        
+    
+    
+            var circle_marker_d592c307e64a80dc9781fc09c259ced0 = L.circleMarker(
+                [32.0343, -42.0396],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ede3c77880927ad4f41529130a164d8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39d32d50aa7698920cfe3db399e577e1 = $(`<div id="html_39d32d50aa7698920cfe3db399e577e1" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: northern Mid-Atlantic Ridge</div>`)[0];
+                popup_ede3c77880927ad4f41529130a164d8f.setContent(html_39d32d50aa7698920cfe3db399e577e1);
+            
+        
+
+        circle_marker_d592c307e64a80dc9781fc09c259ced0.bindPopup(popup_ede3c77880927ad4f41529130a164d8f)
+        ;
+
+        
+    
+    
+            var circle_marker_a11e33e5e31396f37140db53e984e032 = L.circleMarker(
+                [-7.4983, 104.9624],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_693032b7a8bfe1e7d106b4c1f6602d2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79efaaf90d9de498cc48c4fba6248d31 = $(`<div id="html_79efaaf90d9de498cc48c4fba6248d31" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 156 km SW of Labuan, Indonesia</div>`)[0];
+                popup_693032b7a8bfe1e7d106b4c1f6602d2f.setContent(html_79efaaf90d9de498cc48c4fba6248d31);
+            
+        
+
+        circle_marker_a11e33e5e31396f37140db53e984e032.bindPopup(popup_693032b7a8bfe1e7d106b4c1f6602d2f)
+        ;
+
+        
+    
+    
+            var circle_marker_2e5513eda4a0db1c82a42761e77b273b = L.circleMarker(
+                [52.1582, 160.8307],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_172136db17724121e2d9ad3cc1c088bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dba8d9a266319713c10bb63332db63d = $(`<div id="html_9dba8d9a266319713c10bb63332db63d" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 180 km SE of Petropavlovsk-Kamchatsky, Russia</div>`)[0];
+                popup_172136db17724121e2d9ad3cc1c088bc.setContent(html_9dba8d9a266319713c10bb63332db63d);
+            
+        
+
+        circle_marker_2e5513eda4a0db1c82a42761e77b273b.bindPopup(popup_172136db17724121e2d9ad3cc1c088bc)
+        ;
+
+        
+    
+    
+            var circle_marker_2458e773036a868409658f5d6404f8ed = L.circleMarker(
+                [-59.6689, -26.2588],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_63cb40715499ca7ef74b7a665842c522 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccc5d88f469c5dc6fb0f5b6abbe04bff = $(`<div id="html_ccc5d88f469c5dc6fb0f5b6abbe04bff" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: South Sandwich Islands region</div>`)[0];
+                popup_63cb40715499ca7ef74b7a665842c522.setContent(html_ccc5d88f469c5dc6fb0f5b6abbe04bff);
+            
+        
+
+        circle_marker_2458e773036a868409658f5d6404f8ed.bindPopup(popup_63cb40715499ca7ef74b7a665842c522)
+        ;
+
+        
+    
+    
+            var circle_marker_7c0a08ec75ea1095db4a2c32f6d35c14 = L.circleMarker(
+                [23.8773, -45.8698],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_007cb2dc76c2425770a9797a2f488cee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1c2e115145d0c59af22b703f88e5606 = $(`<div id="html_c1c2e115145d0c59af22b703f88e5606" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: northern Mid-Atlantic Ridge</div>`)[0];
+                popup_007cb2dc76c2425770a9797a2f488cee.setContent(html_c1c2e115145d0c59af22b703f88e5606);
+            
+        
+
+        circle_marker_7c0a08ec75ea1095db4a2c32f6d35c14.bindPopup(popup_007cb2dc76c2425770a9797a2f488cee)
+        ;
+
+        
+    
+    
+            var circle_marker_7936e68a80529ca2fe61fe7f19ac4563 = L.circleMarker(
+                [36.5403, 70.1859],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_c3f35409b5a32027a10a5f9fbaecc657 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_058bc342439a446c65f97607d8ba95a0 = $(`<div id="html_058bc342439a446c65f97607d8ba95a0" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 29 km E of Farkhār, Afghanistan</div>`)[0];
+                popup_c3f35409b5a32027a10a5f9fbaecc657.setContent(html_058bc342439a446c65f97607d8ba95a0);
+            
+        
+
+        circle_marker_7936e68a80529ca2fe61fe7f19ac4563.bindPopup(popup_c3f35409b5a32027a10a5f9fbaecc657)
+        ;
+
+        
+    
+    
+            var circle_marker_702817946a3b98976e585e9067313c14 = L.circleMarker(
+                [-31.5603, -66.8824],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_3dbc2228519e0ef047545b8342f93b5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ef4c274028baab74b3beadf08b3e5c = $(`<div id="html_15ef4c274028baab74b3beadf08b3e5c" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 114 km WNW of Candelaria, Argentina</div>`)[0];
+                popup_3dbc2228519e0ef047545b8342f93b5f.setContent(html_15ef4c274028baab74b3beadf08b3e5c);
+            
+        
+
+        circle_marker_702817946a3b98976e585e9067313c14.bindPopup(popup_3dbc2228519e0ef047545b8342f93b5f)
+        ;
+
+        
+    
+    
+            var circle_marker_5a81fda4c13486e830bc77bb384f6d72 = L.circleMarker(
+                [39.2636, 21.598],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_e16396b7ceae6c435e7ef7a9177b4a93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_801f065d2d91d8b51035970334b59ecf = $(`<div id="html_801f065d2d91d8b51035970334b59ecf" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 15 km SE of Anthiró, Greece</div>`)[0];
+                popup_e16396b7ceae6c435e7ef7a9177b4a93.setContent(html_801f065d2d91d8b51035970334b59ecf);
+            
+        
+
+        circle_marker_5a81fda4c13486e830bc77bb384f6d72.bindPopup(popup_e16396b7ceae6c435e7ef7a9177b4a93)
+        ;
+
+        
+    
+    
+            var circle_marker_e3daa083d33197d6a85309cd83331a88 = L.circleMarker(
+                [-15.9783, -172.8541],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_9b6840fb16d6dd0e5c95fa6fadca9322 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_843d50aa8b44f01456d8b19a80e17a01 = $(`<div id="html_843d50aa8b44f01456d8b19a80e17a01" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 100 km E of Hihifo, Tonga</div>`)[0];
+                popup_9b6840fb16d6dd0e5c95fa6fadca9322.setContent(html_843d50aa8b44f01456d8b19a80e17a01);
+            
+        
+
+        circle_marker_e3daa083d33197d6a85309cd83331a88.bindPopup(popup_9b6840fb16d6dd0e5c95fa6fadca9322)
+        ;
+
+        
+    
+    
+            var circle_marker_7bdd0ab336343df1121adcd1ecfa62b8 = L.circleMarker(
+                [51.471, 159.5688],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_67b7e0f63b5f39fed497570d5480c0e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bef6fc30787f88cf985ee8127eb97e47 = $(`<div id="html_bef6fc30787f88cf985ee8127eb97e47" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 180 km SSE of Vilyuchinsk, Russia</div>`)[0];
+                popup_67b7e0f63b5f39fed497570d5480c0e7.setContent(html_bef6fc30787f88cf985ee8127eb97e47);
+            
+        
+
+        circle_marker_7bdd0ab336343df1121adcd1ecfa62b8.bindPopup(popup_67b7e0f63b5f39fed497570d5480c0e7)
+        ;
+
+        
+    
+    
+            var circle_marker_f1a094e5019e8beadb8a5fa01eeb26fe = L.circleMarker(
+                [52.1058, 176.3937],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f373858db6b9a30006d37b9456304eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5091a373e92dfa31bac644b06176f3a5 = $(`<div id="html_5091a373e92dfa31bac644b06176f3a5" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 232 km ESE of Attu Station, Alaska</div>`)[0];
+                popup_f373858db6b9a30006d37b9456304eb4.setContent(html_5091a373e92dfa31bac644b06176f3a5);
+            
+        
+
+        circle_marker_f1a094e5019e8beadb8a5fa01eeb26fe.bindPopup(popup_f373858db6b9a30006d37b9456304eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_a67b6cd09524baf181b7b8dcf4f73d15 = L.circleMarker(
+                [51.4036, 159.6719],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_fa90bb7fced8a1ce724fc4a80b23d344 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8a263f58c24ca6707f83fb275cbfde6 = $(`<div id="html_d8a263f58c24ca6707f83fb275cbfde6" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 190 km SSE of Vilyuchinsk, Russia</div>`)[0];
+                popup_fa90bb7fced8a1ce724fc4a80b23d344.setContent(html_d8a263f58c24ca6707f83fb275cbfde6);
+            
+        
+
+        circle_marker_a67b6cd09524baf181b7b8dcf4f73d15.bindPopup(popup_fa90bb7fced8a1ce724fc4a80b23d344)
+        ;
+
+        
+    
+    
+            var circle_marker_b08c694db01811045b9d52954b761693 = L.circleMarker(
+                [-31.4461, -69.5425],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_65327490e75324482338781777cbabe0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5c624dd0d0cac0837e000d5196815d9 = $(`<div id="html_d5c624dd0d0cac0837e000d5196815d9" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: 16 km SW of Calingasta, Argentina</div>`)[0];
+                popup_65327490e75324482338781777cbabe0.setContent(html_d5c624dd0d0cac0837e000d5196815d9);
+            
+        
+
+        circle_marker_b08c694db01811045b9d52954b761693.bindPopup(popup_65327490e75324482338781777cbabe0)
+        ;
+
+        
+    
+    
+            var circle_marker_41c6a736f812571ea49d7c51fc571750 = L.circleMarker(
+                [-33.1876, -178.3951],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_6735b5c6bff72cd58babf8bff474d732 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_316bafb39a48802473f201b29dcc5431 = $(`<div id="html_316bafb39a48802473f201b29dcc5431" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_6735b5c6bff72cd58babf8bff474d732.setContent(html_316bafb39a48802473f201b29dcc5431);
+            
+        
+
+        circle_marker_41c6a736f812571ea49d7c51fc571750.bindPopup(popup_6735b5c6bff72cd58babf8bff474d732)
+        ;
+
+        
+    
+    
+            var circle_marker_15a416e413f1e05649dfd5b95b2548ef = L.circleMarker(
+                [-59.3269, -25.9885],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6499999999999995, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_da12abb1365840b785a5134e5d557140 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc25a7c99d0505d9474fb288d8ae1427 = $(`<div id="html_fc25a7c99d0505d9474fb288d8ae1427" style="width: 100.0%; height: 100.0%;">Magnitude: 5.1 | Location: South Sandwich Islands region</div>`)[0];
+                popup_da12abb1365840b785a5134e5d557140.setContent(html_fc25a7c99d0505d9474fb288d8ae1427);
+            
+        
+
+        circle_marker_15a416e413f1e05649dfd5b95b2548ef.bindPopup(popup_da12abb1365840b785a5134e5d557140)
+        ;
+
+        
+    
+    
+            var circle_marker_f21038bb8ad1bf2e1f434171a1003598 = L.circleMarker(
+                [36.6726, 74.3708],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f3a99a53fef531d750d7e3c290ef36d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f3b2cbef86e0d9d3cac71dd0af4cd53 = $(`<div id="html_9f3b2cbef86e0d9d3cac71dd0af4cd53" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 48 km NW of Barishal, Pakistan</div>`)[0];
+                popup_f3a99a53fef531d750d7e3c290ef36d6.setContent(html_9f3b2cbef86e0d9d3cac71dd0af4cd53);
+            
+        
+
+        circle_marker_f21038bb8ad1bf2e1f434171a1003598.bindPopup(popup_f3a99a53fef531d750d7e3c290ef36d6)
+        ;
+
+        
+    
+    
+            var circle_marker_6ed18a3d07af5b76490d8390209ad031 = L.circleMarker(
+                [-15.3663, 167.5229],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b40cd4e11a3ca8f1596bf333c369a922 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4e572ee1ab5cdb7d026514ccbb12d9f = $(`<div id="html_e4e572ee1ab5cdb7d026514ccbb12d9f" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 42 km ENE of Luganville, Vanuatu</div>`)[0];
+                popup_b40cd4e11a3ca8f1596bf333c369a922.setContent(html_e4e572ee1ab5cdb7d026514ccbb12d9f);
+            
+        
+
+        circle_marker_6ed18a3d07af5b76490d8390209ad031.bindPopup(popup_b40cd4e11a3ca8f1596bf333c369a922)
+        ;
+
+        
+    
+    
+            var circle_marker_a624ae9b4284723a2877bebd2f0aea17 = L.circleMarker(
+                [-5.8203, 152.0742],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_43a5c01fc8a5d8639b4a094108ebc6e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e64faae56b604c8c29d88f21545fbda9 = $(`<div id="html_e64faae56b604c8c29d88f21545fbda9" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 164 km S of Kokopo, Papua New Guinea</div>`)[0];
+                popup_43a5c01fc8a5d8639b4a094108ebc6e1.setContent(html_e64faae56b604c8c29d88f21545fbda9);
+            
+        
+
+        circle_marker_a624ae9b4284723a2877bebd2f0aea17.bindPopup(popup_43a5c01fc8a5d8639b4a094108ebc6e1)
+        ;
+
+        
+    
+    
+            var circle_marker_931258de518caa801a2f0b7cbe4de941 = L.circleMarker(
+                [52.217, 160.6922],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_8d33b5f4325b080c22b1b1181a7dab17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_827f40ae195e4fa01392f83dab8fc8ee = $(`<div id="html_827f40ae195e4fa01392f83dab8fc8ee" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 168 km SE of Petropavlovsk-Kamchatsky, Russia</div>`)[0];
+                popup_8d33b5f4325b080c22b1b1181a7dab17.setContent(html_827f40ae195e4fa01392f83dab8fc8ee);
+            
+        
+
+        circle_marker_931258de518caa801a2f0b7cbe4de941.bindPopup(popup_8d33b5f4325b080c22b1b1181a7dab17)
+        ;
+
+        
+    
+    
+            var circle_marker_216aef38580373e15342399c25c1518d = L.circleMarker(
+                [-3.7243, 123.3284],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_d281f9601632900405a154aa055176ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e0abf05f8667026bd26c3db0005e4e0 = $(`<div id="html_5e0abf05f8667026bd26c3db0005e4e0" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 94 km ENE of Kendari, Indonesia</div>`)[0];
+                popup_d281f9601632900405a154aa055176ac.setContent(html_5e0abf05f8667026bd26c3db0005e4e0);
+            
+        
+
+        circle_marker_216aef38580373e15342399c25c1518d.bindPopup(popup_d281f9601632900405a154aa055176ac)
+        ;
+
+        
+    
+    
+            var circle_marker_406fbd8ce26cc0e157c7c0ba9dba4de4 = L.circleMarker(
+                [36.6474, 74.4394],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f01b0848b676c9732e5f7a88f63fe8b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_425b3ed3d5c80b8db7e9f3b76af685dd = $(`<div id="html_425b3ed3d5c80b8db7e9f3b76af685dd" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 42 km NNW of Barishal, Pakistan</div>`)[0];
+                popup_f01b0848b676c9732e5f7a88f63fe8b9.setContent(html_425b3ed3d5c80b8db7e9f3b76af685dd);
+            
+        
+
+        circle_marker_406fbd8ce26cc0e157c7c0ba9dba4de4.bindPopup(popup_f01b0848b676c9732e5f7a88f63fe8b9)
+        ;
+
+        
+    
+    
+            var circle_marker_8d397e9bbf54c31d8bb13a418f238cfd = L.circleMarker(
+                [47.2678, 153.5234],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f429ad8d3b2b7c2d61535bb261ac10ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71250765cc75f4d24cf3e74de790fadc = $(`<div id="html_71250765cc75f4d24cf3e74de790fadc" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Kuril Islands</div>`)[0];
+                popup_f429ad8d3b2b7c2d61535bb261ac10ea.setContent(html_71250765cc75f4d24cf3e74de790fadc);
+            
+        
+
+        circle_marker_8d397e9bbf54c31d8bb13a418f238cfd.bindPopup(popup_f429ad8d3b2b7c2d61535bb261ac10ea)
+        ;
+
+        
+    
+    
+            var circle_marker_766dbde7128d037026226822400fda78 = L.circleMarker(
+                [-33.1836, -178.5337],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_1d44d63ddbdd58f8f95dc3b48324ee71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddd4570ec680e88fe616f9af85f9497e = $(`<div id="html_ddd4570ec680e88fe616f9af85f9497e" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_1d44d63ddbdd58f8f95dc3b48324ee71.setContent(html_ddd4570ec680e88fe616f9af85f9497e);
+            
+        
+
+        circle_marker_766dbde7128d037026226822400fda78.bindPopup(popup_1d44d63ddbdd58f8f95dc3b48324ee71)
+        ;
+
+        
+    
+    
+            var circle_marker_a4396268dd81bfcfa48601389c55e6f2 = L.circleMarker(
+                [39.3857, 143.2972],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_7fab6d4c2dea8cb8f1eb31b126960463 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5b14960a68a1fb7e999eee8a434705c = $(`<div id="html_a5b14960a68a1fb7e999eee8a434705c" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 116 km E of Yamada, Japan</div>`)[0];
+                popup_7fab6d4c2dea8cb8f1eb31b126960463.setContent(html_a5b14960a68a1fb7e999eee8a434705c);
+            
+        
+
+        circle_marker_a4396268dd81bfcfa48601389c55e6f2.bindPopup(popup_7fab6d4c2dea8cb8f1eb31b126960463)
+        ;
+
+        
+    
+    
+            var circle_marker_c4d95b42b34864a0132a7d4be96b7c3e = L.circleMarker(
+                [-33.2449, -177.9295],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_62a8b625c46d6d0a43bf6bddb38e8cd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f5968e5933cee9f5442bda04ff94305 = $(`<div id="html_5f5968e5933cee9f5442bda04ff94305" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_62a8b625c46d6d0a43bf6bddb38e8cd8.setContent(html_5f5968e5933cee9f5442bda04ff94305);
+            
+        
+
+        circle_marker_c4d95b42b34864a0132a7d4be96b7c3e.bindPopup(popup_62a8b625c46d6d0a43bf6bddb38e8cd8)
+        ;
+
+        
+    
+    
+            var circle_marker_225896bcf28fb97f2d625f8242dc9d29 = L.circleMarker(
+                [-21.4372, 68.8592],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_dcce5936c82e62cf283085031f1ddad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bab24f090e9cec0d3058c93b615df647 = $(`<div id="html_bab24f090e9cec0d3058c93b615df647" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Mid-Indian Ridge</div>`)[0];
+                popup_dcce5936c82e62cf283085031f1ddad7.setContent(html_bab24f090e9cec0d3058c93b615df647);
+            
+        
+
+        circle_marker_225896bcf28fb97f2d625f8242dc9d29.bindPopup(popup_dcce5936c82e62cf283085031f1ddad7)
+        ;
+
+        
+    
+    
+            var circle_marker_c223ffc9b533215c7d4888c897ffdb24 = L.circleMarker(
+                [-10.4736, -13.1188],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_6489903cade882ae5bbabce1ad8076a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2ea7a1d69421cc7f492d1c73c3756ab = $(`<div id="html_c2ea7a1d69421cc7f492d1c73c3756ab" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Ascension Island region</div>`)[0];
+                popup_6489903cade882ae5bbabce1ad8076a5.setContent(html_c2ea7a1d69421cc7f492d1c73c3756ab);
+            
+        
+
+        circle_marker_c223ffc9b533215c7d4888c897ffdb24.bindPopup(popup_6489903cade882ae5bbabce1ad8076a5)
+        ;
+
+        
+    
+    
+            var circle_marker_0c7427adc13815a149734d7044a00f2b = L.circleMarker(
+                [15.4583, -89.0771],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_412d453ac28379cbe97e46ba143add75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efbe626f9f790596a03784211cd77753 = $(`<div id="html_efbe626f9f790596a03784211cd77753" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 22 km N of Los Amates, Guatemala</div>`)[0];
+                popup_412d453ac28379cbe97e46ba143add75.setContent(html_efbe626f9f790596a03784211cd77753);
+            
+        
+
+        circle_marker_0c7427adc13815a149734d7044a00f2b.bindPopup(popup_412d453ac28379cbe97e46ba143add75)
+        ;
+
+        
+    
+    
+            var circle_marker_1c47a6dbb9f951bef5b8db6abf331b62 = L.circleMarker(
+                [-29.2715, -179.0714],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_7a35fa982f1aa411eaa6de416e2919ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_533fbb2c0dea2a47dea537f90d46c1b7 = $(`<div id="html_533fbb2c0dea2a47dea537f90d46c1b7" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Kermadec Islands region</div>`)[0];
+                popup_7a35fa982f1aa411eaa6de416e2919ae.setContent(html_533fbb2c0dea2a47dea537f90d46c1b7);
+            
+        
+
+        circle_marker_1c47a6dbb9f951bef5b8db6abf331b62.bindPopup(popup_7a35fa982f1aa411eaa6de416e2919ae)
+        ;
+
+        
+    
+    
+            var circle_marker_1ec6ec7732d0fafe743e468c65ba6bda = L.circleMarker(
+                [-30.2134, -177.1604],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f271e342fbb6e1bb63934047fc6dd02e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8d4fd01f4fb0ece058ebd8084feea16 = $(`<div id="html_f8d4fd01f4fb0ece058ebd8084feea16" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Kermadec Islands, New Zealand</div>`)[0];
+                popup_f271e342fbb6e1bb63934047fc6dd02e.setContent(html_f8d4fd01f4fb0ece058ebd8084feea16);
+            
+        
+
+        circle_marker_1ec6ec7732d0fafe743e468c65ba6bda.bindPopup(popup_f271e342fbb6e1bb63934047fc6dd02e)
+        ;
+
+        
+    
+    
+            var circle_marker_8c4e414856c54f895f18e729fb143d47 = L.circleMarker(
+                [-32.0218, 57.0542],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_de511e7d90e0daa92904a5892fdaae21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f089aa25ae2b8e751e25fe006113fca = $(`<div id="html_6f089aa25ae2b8e751e25fe006113fca" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Southwest Indian Ridge</div>`)[0];
+                popup_de511e7d90e0daa92904a5892fdaae21.setContent(html_6f089aa25ae2b8e751e25fe006113fca);
+            
+        
+
+        circle_marker_8c4e414856c54f895f18e729fb143d47.bindPopup(popup_de511e7d90e0daa92904a5892fdaae21)
+        ;
+
+        
+    
+    
+            var circle_marker_ac72cd1d124ec0ce5d0322a791593bbc = L.circleMarker(
+                [-35.3432, -70.9734],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_0ff8580f42e7730741adacc3190fb88d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44c346e47a49f368f367ed233666e10a = $(`<div id="html_44c346e47a49f368f367ed233666e10a" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 37 km SE of Molina, Chile</div>`)[0];
+                popup_0ff8580f42e7730741adacc3190fb88d.setContent(html_44c346e47a49f368f367ed233666e10a);
+            
+        
+
+        circle_marker_ac72cd1d124ec0ce5d0322a791593bbc.bindPopup(popup_0ff8580f42e7730741adacc3190fb88d)
+        ;
+
+        
+    
+    
+            var circle_marker_78bcb10f9540272c9d32e2ec4cdbaafb = L.circleMarker(
+                [-20.5556, 168.2554],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_810f305709103cc96228fa8018d3c4ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61304e18fc1d4794a393d0cdf07026d3 = $(`<div id="html_61304e18fc1d4794a393d0cdf07026d3" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 110 km ENE of Wé, New Caledonia</div>`)[0];
+                popup_810f305709103cc96228fa8018d3c4ca.setContent(html_61304e18fc1d4794a393d0cdf07026d3);
+            
+        
+
+        circle_marker_78bcb10f9540272c9d32e2ec4cdbaafb.bindPopup(popup_810f305709103cc96228fa8018d3c4ca)
+        ;
+
+        
+    
+    
+            var circle_marker_43536354b1a86a5dc3f1e69d00ed8ff2 = L.circleMarker(
+                [-16.332, -173.0293],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_4242fb9a553e09cf71c6836326ea6b49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa2ab6208bcc5e83130f60531b716689 = $(`<div id="html_fa2ab6208bcc5e83130f60531b716689" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 92 km ESE of Hihifo, Tonga</div>`)[0];
+                popup_4242fb9a553e09cf71c6836326ea6b49.setContent(html_fa2ab6208bcc5e83130f60531b716689);
+            
+        
+
+        circle_marker_43536354b1a86a5dc3f1e69d00ed8ff2.bindPopup(popup_4242fb9a553e09cf71c6836326ea6b49)
+        ;
+
+        
+    
+    
+            var circle_marker_7556c95d3620f9b6c9a07f32027e2751 = L.circleMarker(
+                [-33.4094, -178.4794],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_0bf1b38318f4817caef7bfc03644e4e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd4cf889306b45d2eb48d07147b73daf = $(`<div id="html_dd4cf889306b45d2eb48d07147b73daf" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: south of the Kermadec Islands</div>`)[0];
+                popup_0bf1b38318f4817caef7bfc03644e4e7.setContent(html_dd4cf889306b45d2eb48d07147b73daf);
+            
+        
+
+        circle_marker_7556c95d3620f9b6c9a07f32027e2751.bindPopup(popup_0bf1b38318f4817caef7bfc03644e4e7)
+        ;
+
+        
+    
+    
+            var circle_marker_a2438c5ba44bed06ca5c045bab804352 = L.circleMarker(
+                [13.8532, 120.723],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b1caee777bde12cf2531cbc4fa5e7726 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_187afff735a0c0673a2e97799ee146f0 = $(`<div id="html_187afff735a0c0673a2e97799ee146f0" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 2 km ENE of Hukay, Philippines</div>`)[0];
+                popup_b1caee777bde12cf2531cbc4fa5e7726.setContent(html_187afff735a0c0673a2e97799ee146f0);
+            
+        
+
+        circle_marker_a2438c5ba44bed06ca5c045bab804352.bindPopup(popup_b1caee777bde12cf2531cbc4fa5e7726)
+        ;
+
+        
+    
+    
+            var circle_marker_00c2fc34d5b91dd39e729812adbffac3 = L.circleMarker(
+                [-17.7626, -172.6813],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_f9e854957121a49f6ef6e5491275d420 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efd85498a6804acd9b143f8bc2ea241a = $(`<div id="html_efd85498a6804acd9b143f8bc2ea241a" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 169 km NE of Neiafu, Tonga</div>`)[0];
+                popup_f9e854957121a49f6ef6e5491275d420.setContent(html_efd85498a6804acd9b143f8bc2ea241a);
+            
+        
+
+        circle_marker_00c2fc34d5b91dd39e729812adbffac3.bindPopup(popup_f9e854957121a49f6ef6e5491275d420)
+        ;
+
+        
+    
+    
+            var circle_marker_7abc217d2e0563c742e08774172dc606 = L.circleMarker(
+                [-23.3455, 171.5645],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ef559cd9cf02e08ae4e74147f88af925 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_554c68e2a7fb171e8ad5881ddd3ccf26 = $(`<div id="html_554c68e2a7fb171e8ad5881ddd3ccf26" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: southeast of the Loyalty Islands</div>`)[0];
+                popup_ef559cd9cf02e08ae4e74147f88af925.setContent(html_554c68e2a7fb171e8ad5881ddd3ccf26);
+            
+        
+
+        circle_marker_7abc217d2e0563c742e08774172dc606.bindPopup(popup_ef559cd9cf02e08ae4e74147f88af925)
+        ;
+
+        
+    
+    
+            var circle_marker_3db84e15bcc530686d95352b187a84ec = L.circleMarker(
+                [-9.489, 120.5881],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_9426df2bf449177b1955521ab5e5a423 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da03e88eb4372a415e67320aada5373b = $(`<div id="html_da03e88eb4372a415e67320aada5373b" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 40 km ENE of Waingapu, Indonesia</div>`)[0];
+                popup_9426df2bf449177b1955521ab5e5a423.setContent(html_da03e88eb4372a415e67320aada5373b);
+            
+        
+
+        circle_marker_3db84e15bcc530686d95352b187a84ec.bindPopup(popup_9426df2bf449177b1955521ab5e5a423)
+        ;
+
+        
+    
+    
+            var circle_marker_7ec455be1848cafbc0ac81863a32e891 = L.circleMarker(
+                [-0.5098, 121.949],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_da84c4d559d0e8aa75900ca71c99cf20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaaf4500a8c4f529e0ef95ea68233d38 = $(`<div id="html_eaaf4500a8c4f529e0ef95ea68233d38" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 105 km WNW of Luwuk, Indonesia</div>`)[0];
+                popup_da84c4d559d0e8aa75900ca71c99cf20.setContent(html_eaaf4500a8c4f529e0ef95ea68233d38);
+            
+        
+
+        circle_marker_7ec455be1848cafbc0ac81863a32e891.bindPopup(popup_da84c4d559d0e8aa75900ca71c99cf20)
+        ;
+
+        
+    
+    
+            var circle_marker_6477b4b0bc363a8350f145ec0130c00e = L.circleMarker(
+                [-17.0514, 67.092],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b98df0453402abe8a09a79d6468fd986 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26c54ae9f9fb209304bb54937a9e26a5 = $(`<div id="html_26c54ae9f9fb209304bb54937a9e26a5" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Mid-Indian Ridge</div>`)[0];
+                popup_b98df0453402abe8a09a79d6468fd986.setContent(html_26c54ae9f9fb209304bb54937a9e26a5);
+            
+        
+
+        circle_marker_6477b4b0bc363a8350f145ec0130c00e.bindPopup(popup_b98df0453402abe8a09a79d6468fd986)
+        ;
+
+        
+    
+    
+            var circle_marker_ac8a637e58296c56e1781940e18d4ae5 = L.circleMarker(
+                [43.6823, 86.4613],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_88271c7145dd30c6c4dbfcd7087250b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c52d78a1e83698715967b0499c404164 = $(`<div id="html_c52d78a1e83698715967b0499c404164" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 76 km SSE of Shihezi, China</div>`)[0];
+                popup_88271c7145dd30c6c4dbfcd7087250b6.setContent(html_c52d78a1e83698715967b0499c404164);
+            
+        
+
+        circle_marker_ac8a637e58296c56e1781940e18d4ae5.bindPopup(popup_88271c7145dd30c6c4dbfcd7087250b6)
+        ;
+
+        
+    
+    
+            var circle_marker_30c034f022a75251755e371898ba8a34 = L.circleMarker(
+                [19.7401, -74.4084],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_ea002ba5e256cf97ee68a12735bc2347 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_263ed214a373f64c37fb0a89ac476aad = $(`<div id="html_263ed214a373f64c37fb0a89ac476aad" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 62 km SSW of Maisí, Cuba</div>`)[0];
+                popup_ea002ba5e256cf97ee68a12735bc2347.setContent(html_263ed214a373f64c37fb0a89ac476aad);
+            
+        
+
+        circle_marker_30c034f022a75251755e371898ba8a34.bindPopup(popup_ea002ba5e256cf97ee68a12735bc2347)
+        ;
+
+        
+    
+    
+            var circle_marker_1003d9a1baeeebee156bc904724b42ac = L.circleMarker(
+                [-2.9214, 130.2375],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_addb2c6ecfed7524d52201fa6f89a2fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7900cad65dce17280e1128ffed09efbc = $(`<div id="html_7900cad65dce17280e1128ffed09efbc" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 147 km ENE of Masohi, Indonesia</div>`)[0];
+                popup_addb2c6ecfed7524d52201fa6f89a2fc.setContent(html_7900cad65dce17280e1128ffed09efbc);
+            
+        
+
+        circle_marker_1003d9a1baeeebee156bc904724b42ac.bindPopup(popup_addb2c6ecfed7524d52201fa6f89a2fc)
+        ;
+
+        
+    
+    
+            var circle_marker_9a9fae5ca28b142d176508894f872af1 = L.circleMarker(
+                [18.9022, 145.6637],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_c1287fb938dcb5c04338629294d7276a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9a84576af89a0353f9cb4aa9906c219 = $(`<div id="html_d9a84576af89a0353f9cb4aa9906c219" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: Pagan region, Northern Mariana Islands</div>`)[0];
+                popup_c1287fb938dcb5c04338629294d7276a.setContent(html_d9a84576af89a0353f9cb4aa9906c219);
+            
+        
+
+        circle_marker_9a9fae5ca28b142d176508894f872af1.bindPopup(popup_c1287fb938dcb5c04338629294d7276a)
+        ;
+
+        
+    
+    
+            var circle_marker_e728a4ffa3f3f06b50347998080f143f = L.circleMarker(
+                [-7.541, 127.6711],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b0c9e830b13a4ec7fbe8eadbf0508674 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b0c1a65fda00b55fcc5a00c1bc98228 = $(`<div id="html_3b0c1a65fda00b55fcc5a00c1bc98228" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 131 km NE of Lospalos, Timor Leste</div>`)[0];
+                popup_b0c9e830b13a4ec7fbe8eadbf0508674.setContent(html_3b0c1a65fda00b55fcc5a00c1bc98228);
+            
+        
+
+        circle_marker_e728a4ffa3f3f06b50347998080f143f.bindPopup(popup_b0c9e830b13a4ec7fbe8eadbf0508674)
+        ;
+
+        
+    
+    
+            var circle_marker_2ee974f2fd6bfa1e0ae69b8ad7d46c46 = L.circleMarker(
+                [25.2983, 124.9174],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_b5243b587af8e587c5469229944fbb24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b66c471142efffc48ebc88a4be1b2f80 = $(`<div id="html_b66c471142efffc48ebc88a4be1b2f80" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 67 km NW of Hirara, Japan</div>`)[0];
+                popup_b5243b587af8e587c5469229944fbb24.setContent(html_b66c471142efffc48ebc88a4be1b2f80);
+            
+        
+
+        circle_marker_2ee974f2fd6bfa1e0ae69b8ad7d46c46.bindPopup(popup_b5243b587af8e587c5469229944fbb24)
+        ;
+
+        
+    
+    
+            var circle_marker_d2da5d36a092d0a6f1ff1ee6b35987ec = L.circleMarker(
+                [25.2869, 124.9384],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_063a6a574792314a9b64196ca7b424bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ef3ffaa6d1fd12be3a71a4a211e8483 = $(`<div id="html_0ef3ffaa6d1fd12be3a71a4a211e8483" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 64 km NW of Hirara, Japan</div>`)[0];
+                popup_063a6a574792314a9b64196ca7b424bc.setContent(html_0ef3ffaa6d1fd12be3a71a4a211e8483);
+            
+        
+
+        circle_marker_d2da5d36a092d0a6f1ff1ee6b35987ec.bindPopup(popup_063a6a574792314a9b64196ca7b424bc)
+        ;
+
+        
+    
+    
+            var circle_marker_7555dbc6b69d6cbaeee202f1087e593f = L.circleMarker(
+                [51.8317, 159.856],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 1}
+            ).addTo(map_21027633dd75f4b71e7cbc4f7f1174e1);
+        
+    
+        var popup_bcf267b41516895ebb080ac264cd77f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38975d3cdd5416b0593b7ab705a95ca4 = $(`<div id="html_38975d3cdd5416b0593b7ab705a95ca4" style="width: 100.0%; height: 100.0%;">Magnitude: 5.0 | Location: 157 km SE of Vilyuchinsk, Russia</div>`)[0];
+                popup_bcf267b41516895ebb080ac264cd77f1.setContent(html_38975d3cdd5416b0593b7ab705a95ca4);
+            
+        
+
+        circle_marker_7555dbc6b69d6cbaeee202f1087e593f.bindPopup(popup_bcf267b41516895ebb080ac264cd77f1)
+        ;
+
+        
+    
+</script>
+</html>
